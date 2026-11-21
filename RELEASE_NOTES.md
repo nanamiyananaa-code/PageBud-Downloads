@@ -11,7 +11,7 @@
 
 ## 当前未完成项
 
-- 可信签名与时间戳：PageBud-Web-Desktop-R1.exe=NotSigned；_build-source/uninstaller/pagebud_uninstaller.exe=NotSigned；页芽_首次安装版_v5.10.0-alpha-r793.exe=NotSigned；页芽_用户端升级包_amd64_v5.10.0-alpha-r793.exe=NotSigned
+- 可信签名与时间戳：PageBud-Web-Desktop-R1.exe=NotSigned；_build-source/uninstaller/pagebud_uninstaller.exe=NotSigned；PageBud-Setup-5.10.0-alpha-r793-windows-x64.exe=NotSigned；PageBud-Update-5.10.0-alpha-r793-windows-x64.exe=NotSigned
 - 可追溯发布源码冻结：当前工作区未提交条目=336；不自动提交其他任务改动。
 - 独立Windows10/11验收：缺少干净机验收报告。
 - 公开服务可信链：本次客户端缺少固定公钥或真实部署证据；不将本机可达算作公开服务验收。

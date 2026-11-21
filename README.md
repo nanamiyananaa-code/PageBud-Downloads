@@ -10,8 +10,8 @@
 
 ## 下载与安装
 
-- 首次安装：选择 Releases 中的 `页芽_首次安装版_v5.10.0-alpha-r793.exe`。
-- 已有用户升级：选择 `页芽_用户端升级包_amd64_v5.10.0-alpha-r793.exe`。升级前请在页芽中确认数据已经保存，并创建备份。
+- 首次安装：选择 Releases 中的 `PageBud-Setup-5.10.0-alpha-r793-windows-x64.exe`。
+- 已有用户升级：选择 `PageBud-Update-5.10.0-alpha-r793-windows-x64.exe`。升级前请在页芽中确认数据已经保存，并创建备份。
 - 下载后可用 `Get-FileHash -Algorithm SHA256 -LiteralPath '安装包完整路径'` 核对随版本提供的 SHA256SUMS.txt。
 - 安装和标准卸载保留本地学习数据；仍建议保留自己的独立备份。
 
