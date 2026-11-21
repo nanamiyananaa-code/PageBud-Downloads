@@ -3,22 +3,54 @@
   "architecture": "amd64",
   "product": "PageBud",
   "publisher": "nana",
-  "status": "candidate-not-public",
+  "publisherType": "individual",
+  "supportEmail": "foxappleccc@gmail.com",
+  "status": "public-unsigned-prerelease",
+  "signed": false,
+  "sourceCodePublished": false,
+  "releaseURL": "https://github.com/nanamiyananaa-code/PageBud-Downloads/releases/tag/v5.10.0-alpha-r796",
+  "formalReleaseReadiness": "BLOCKED",
+  "pendingChecks": [
+    {
+      "id": "authenticode",
+      "status": "PENDING"
+    },
+    {
+      "id": "clean-machine",
+      "status": "PENDING"
+    },
+    {
+      "id": "contact-deployment",
+      "status": "PENDING"
+    },
+    {
+      "id": "media-rights",
+      "status": "PENDING"
+    },
+    {
+      "id": "privacy-terms",
+      "status": "PENDING"
+    },
+    {
+      "id": "manual-acceptance",
+      "status": "PENDING"
+    }
+  ],
   "files": [
     {
       "name": "README.md",
-      "bytes": 1661,
-      "sha256": "19404284c844a50a3c5d14f450cd608db08f696382e9fd5fbc4967ab447cec92"
+      "bytes": 2982,
+      "sha256": "45559380e1182214f53249a644ffd588b057158898f9a9e6521d5c70ce78800e"
     },
     {
       "name": "RELEASE_NOTES.md",
-      "bytes": 2192,
-      "sha256": "d7737de9509f5f5f1ed68456534baa35cb86c99a2755b935a9f7c546793c3938"
+      "bytes": 1501,
+      "sha256": "59a99bd997b7273dce6315118946daf9ba5e8964ec8bda14ae8ece756061245f"
     },
     {
       "name": "TERMS.md",
-      "bytes": 691,
-      "sha256": "87cb46ecd684c4d90bbe23230028a977b8c1951e6ade2c1173e51b332126da0f"
+      "bytes": 1186,
+      "sha256": "978e3e04c16288b7c4cd20ce4de1181a5fb7d206c9307a8de2b9803b03d474fa"
     },
     {
       "name": "ThirdParty/manifest.json",
@@ -347,13 +379,13 @@
     },
     {
       "name": "PRIVACY_DRAFT.md",
-      "bytes": 3912,
-      "sha256": "fac56306ae6b7981d90c92f45222bb45da838cdbb2cefda609c35c51bff292d5"
+      "bytes": 4174,
+      "sha256": "8e72974c14c1fc3f08ce56d0ed7a4da87b6451097359bf4fadd75e849f86880c"
     },
     {
       "name": "SECURITY_DRAFT.md",
-      "bytes": 735,
-      "sha256": "9155547aae032aefaeeaa107c91c8be51db32228ac4f878bd1e8e3ce38380f80"
+      "bytes": 797,
+      "sha256": "4c4d14e10f34537af83ff5cb0894343f82ad6f65662bbb7d516e7059993bf34e"
     },
     {
       "name": "PageBud_ThirdParty_5.10.0-alpha-r796.zip",
