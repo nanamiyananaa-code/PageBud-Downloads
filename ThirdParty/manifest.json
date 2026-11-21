@@ -1,0 +1,1697 @@
+{
+  "schema": 1,
+  "scope": "PageBud client and shared runtime notices",
+  "components": [
+    {
+      "name": "Microsoft WebView2 Loader",
+      "version": "1.0.4191.47",
+      "license": "Microsoft SDK redistribution terms",
+      "purpose": "Native client/control WebView host; installed Evergreen Runtime has separate Microsoft terms."
+    },
+    {
+      "name": "Go runtime and standard library",
+      "version": "1.26.5",
+      "license": "BSD-3-Clause",
+      "purpose": "Compiled Go programs; third-party notices do not license PageBud-owned code."
+    },
+    {
+      "name": "PDF.js",
+      "version": "6.3.289",
+      "license": "Apache-2.0",
+      "purpose": "PDF renderer, worker and bundled resources."
+    },
+    {
+      "name": "PDF.js image engines and font resources",
+      "version": "PDF.js 6.3.289 bundle",
+      "license": "See individual original notices",
+      "purpose": "OpenJPEG, JBIG2/PDFium, qcms, Adobe CMaps, Foxit fonts; all bundled original notices are reproduced."
+    },
+    {
+      "name": "QuickJS and Mozilla pdf.js.quickjs",
+      "version": "PDF.js 6.3.289 bundle",
+      "license": "MIT",
+      "purpose": "PDF scripting sandbox. Supplemental original notices copied from Mozilla; release README confirms MIT."
+    },
+    {
+      "name": "Liberation Sans",
+      "version": "1.07.4",
+      "license": "GPL-2.0 with Liberation font exception",
+      "purpose": "Unmodified PDF fallback fonts; complete SFD source, build scripts and original license are included."
+    },
+    {
+      "name": "Foliate-js MOBI/KF8 adapter",
+      "version": "78914aef4466eb960965702401634c2cb348e9b1",
+      "license": "MIT",
+      "purpose": "MOBI/AZW3 parsing; not the separate Foliate desktop application."
+    },
+    {
+      "name": "djvu-rs",
+      "version": "0.43.0",
+      "license": "MIT",
+      "purpose": "DjVu scalar WASM decoder; does not ship DjVuLibre."
+    },
+    {
+      "name": "Mammoth",
+      "version": "1.13.0",
+      "license": "BSD-2-Clause",
+      "purpose": "DOCX browser converter and its bundled support modules."
+    },
+    {
+      "name": "libarchive.js",
+      "version": "2.0.2",
+      "license": "MIT wrapper; separate upstream notices",
+      "purpose": "Archive reader with Comlink and Emscripten; recipe lists libarchive 3.7.2, zlib 1.3, bzip2 1.0.8, XZ/liblzma 5.2.11 and OpenSSL 1.0.2s. Exact Emscripten compiler version not supplied upstream."
+    },
+    {
+      "name": "opencc-js",
+      "version": "1.4.2",
+      "license": "MIT code; Apache-2.0 opencc-data dictionaries",
+      "purpose": "Offline display conversion; original user content remains unchanged."
+    }
+  ],
+  "licenses": [
+    {
+      "source": "ui_preview/vendor/pdfjs/LICENSE",
+      "path": "licenses/ui_preview__vendor__pdfjs__LICENSE.txt"
+    },
+    {
+      "source": "ui_preview/vendor/pdfjs/cmaps/LICENSE",
+      "path": "licenses/ui_preview__vendor__pdfjs__cmaps__LICENSE.txt"
+    },
+    {
+      "source": "ui_preview/vendor/pdfjs/standard_fonts/LICENSE_FOXIT",
+      "path": "licenses/ui_preview__vendor__pdfjs__standard_fonts__LICENSE_FOXIT.txt"
+    },
+    {
+      "source": "ui_preview/vendor/pdfjs/standard_fonts/LICENSE_LIBERATION",
+      "path": "licenses/ui_preview__vendor__pdfjs__standard_fonts__LICENSE_LIBERATION.txt"
+    },
+    {
+      "source": "ui_preview/vendor/pdfjs/wasm/LICENSE_JBIG2",
+      "path": "licenses/ui_preview__vendor__pdfjs__wasm__LICENSE_JBIG2.txt"
+    },
+    {
+      "source": "ui_preview/vendor/pdfjs/wasm/LICENSE_OPENJPEG",
+      "path": "licenses/ui_preview__vendor__pdfjs__wasm__LICENSE_OPENJPEG.txt"
+    },
+    {
+      "source": "ui_preview/vendor/pdfjs/wasm/LICENSE_PDFJS_JBIG2",
+      "path": "licenses/ui_preview__vendor__pdfjs__wasm__LICENSE_PDFJS_JBIG2.txt"
+    },
+    {
+      "source": "ui_preview/vendor/pdfjs/wasm/LICENSE_PDFJS_OPENJPEG",
+      "path": "licenses/ui_preview__vendor__pdfjs__wasm__LICENSE_PDFJS_OPENJPEG.txt"
+    },
+    {
+      "source": "ui_preview/vendor/pdfjs/wasm/LICENSE_PDFJS_QCMS",
+      "path": "licenses/ui_preview__vendor__pdfjs__wasm__LICENSE_PDFJS_QCMS.txt"
+    },
+    {
+      "source": "ui_preview/vendor/pdfjs/wasm/LICENSE_QCMS",
+      "path": "licenses/ui_preview__vendor__pdfjs__wasm__LICENSE_QCMS.txt"
+    },
+    {
+      "source": "ui_preview/vendor/reader-chinese/LICENSE",
+      "path": "licenses/ui_preview__vendor__reader-chinese__LICENSE.txt"
+    },
+    {
+      "source": "ui_preview/vendor/reader-chinese/LICENSES/Apache-2.0.txt",
+      "path": "licenses/ui_preview__vendor__reader-chinese__LICENSES__Apache-2.0.txt.txt"
+    },
+    {
+      "source": "ui_preview/vendor/reader-chinese/THIRD_PARTY_LICENSES.md",
+      "path": "licenses/ui_preview__vendor__reader-chinese__THIRD_PARTY_LICENSES.md.txt"
+    },
+    {
+      "source": "ui_preview/vendor/reader-formats/LICENSES.json",
+      "path": "licenses/ui_preview__vendor__reader-formats__LICENSES.json.txt"
+    },
+    {
+      "source": "ui_preview/vendor/reader-formats/THIRD_PARTY_NOTICES.md",
+      "path": "licenses/ui_preview__vendor__reader-formats__THIRD_PARTY_NOTICES.md.txt"
+    },
+    {
+      "source": "ui_preview/vendor/reader-formats/djvu-rs/LICENSE",
+      "path": "licenses/ui_preview__vendor__reader-formats__djvu-rs__LICENSE.txt"
+    },
+    {
+      "source": "ui_preview/vendor/reader-formats/foliate/LICENSE",
+      "path": "licenses/ui_preview__vendor__reader-formats__foliate__LICENSE.txt"
+    },
+    {
+      "source": "ui_preview/vendor/reader-formats/libarchive.js/LICENSE",
+      "path": "licenses/ui_preview__vendor__reader-formats__libarchive.js__LICENSE.txt"
+    },
+    {
+      "source": "ui_preview/vendor/reader-formats/licenses/_xmldom_xmldom_0.8.6.txt",
+      "path": "licenses/ui_preview__vendor__reader-formats__licenses___xmldom_xmldom_0.8.6.txt.txt"
+    },
+    {
+      "source": "ui_preview/vendor/reader-formats/licenses/argparse_1.0.9.txt",
+      "path": "licenses/ui_preview__vendor__reader-formats__licenses__argparse_1.0.9.txt.txt"
+    },
+    {
+      "source": "ui_preview/vendor/reader-formats/licenses/base64-js_1.5.1.txt",
+      "path": "licenses/ui_preview__vendor__reader-formats__licenses__base64-js_1.5.1.txt.txt"
+    },
+    {
+      "source": "ui_preview/vendor/reader-formats/licenses/bluebird_3.4.7.txt",
+      "path": "licenses/ui_preview__vendor__reader-formats__licenses__bluebird_3.4.7.txt.txt"
+    },
+    {
+      "source": "ui_preview/vendor/reader-formats/licenses/buffer_4.9.1.txt",
+      "path": "licenses/ui_preview__vendor__reader-formats__licenses__buffer_4.9.1.txt.txt"
+    },
+    {
+      "source": "ui_preview/vendor/reader-formats/licenses/bzip2-1.0.8.txt",
+      "path": "licenses/ui_preview__vendor__reader-formats__licenses__bzip2-1.0.8.txt.txt"
+    },
+    {
+      "source": "ui_preview/vendor/reader-formats/licenses/comlink_4.4.1.txt",
+      "path": "licenses/ui_preview__vendor__reader-formats__licenses__comlink_4.4.1.txt.txt"
+    },
+    {
+      "source": "ui_preview/vendor/reader-formats/licenses/core-util-is_1.0.2.txt",
+      "path": "licenses/ui_preview__vendor__reader-formats__licenses__core-util-is_1.0.2.txt.txt"
+    },
+    {
+      "source": "ui_preview/vendor/reader-formats/licenses/dingbat-to-unicode_1.0.2.txt",
+      "path": "licenses/ui_preview__vendor__reader-formats__licenses__dingbat-to-unicode_1.0.2.txt.txt"
+    },
+    {
+      "source": "ui_preview/vendor/reader-formats/licenses/duck_0.1.12.txt",
+      "path": "licenses/ui_preview__vendor__reader-formats__licenses__duck_0.1.12.txt.txt"
+    },
+    {
+      "source": "ui_preview/vendor/reader-formats/licenses/emscripten.txt",
+      "path": "licenses/ui_preview__vendor__reader-formats__licenses__emscripten.txt.txt"
+    },
+    {
+      "source": "ui_preview/vendor/reader-formats/licenses/ieee754_1.1.8.txt",
+      "path": "licenses/ui_preview__vendor__reader-formats__licenses__ieee754_1.1.8.txt.txt"
+    },
+    {
+      "source": "ui_preview/vendor/reader-formats/licenses/immediate_3.0.6.txt",
+      "path": "licenses/ui_preview__vendor__reader-formats__licenses__immediate_3.0.6.txt.txt"
+    },
+    {
+      "source": "ui_preview/vendor/reader-formats/licenses/inherits_2.0.3.txt",
+      "path": "licenses/ui_preview__vendor__reader-formats__licenses__inherits_2.0.3.txt.txt"
+    },
+    {
+      "source": "ui_preview/vendor/reader-formats/licenses/isarray_1.0.0.txt",
+      "path": "licenses/ui_preview__vendor__reader-formats__licenses__isarray_1.0.0.txt.txt"
+    },
+    {
+      "source": "ui_preview/vendor/reader-formats/licenses/jszip_3.7.1.txt",
+      "path": "licenses/ui_preview__vendor__reader-formats__licenses__jszip_3.7.1.txt.txt"
+    },
+    {
+      "source": "ui_preview/vendor/reader-formats/licenses/libarchive-3.7.2.txt",
+      "path": "licenses/ui_preview__vendor__reader-formats__licenses__libarchive-3.7.2.txt.txt"
+    },
+    {
+      "source": "ui_preview/vendor/reader-formats/licenses/lie_3.3.0.txt",
+      "path": "licenses/ui_preview__vendor__reader-formats__licenses__lie_3.3.0.txt.txt"
+    },
+    {
+      "source": "ui_preview/vendor/reader-formats/licenses/lop_0.4.2.txt",
+      "path": "licenses/ui_preview__vendor__reader-formats__licenses__lop_0.4.2.txt.txt"
+    },
+    {
+      "source": "ui_preview/vendor/reader-formats/licenses/openssl-1.0.2s.txt",
+      "path": "licenses/ui_preview__vendor__reader-formats__licenses__openssl-1.0.2s.txt.txt"
+    },
+    {
+      "source": "ui_preview/vendor/reader-formats/licenses/option_0.2.4.txt",
+      "path": "licenses/ui_preview__vendor__reader-formats__licenses__option_0.2.4.txt.txt"
+    },
+    {
+      "source": "ui_preview/vendor/reader-formats/licenses/pako_1.0.11.txt",
+      "path": "licenses/ui_preview__vendor__reader-formats__licenses__pako_1.0.11.txt.txt"
+    },
+    {
+      "source": "ui_preview/vendor/reader-formats/licenses/process-nextick-args_1.0.7.txt",
+      "path": "licenses/ui_preview__vendor__reader-formats__licenses__process-nextick-args_1.0.7.txt.txt"
+    },
+    {
+      "source": "ui_preview/vendor/reader-formats/licenses/process_0.11.9.txt",
+      "path": "licenses/ui_preview__vendor__reader-formats__licenses__process_0.11.9.txt.txt"
+    },
+    {
+      "source": "ui_preview/vendor/reader-formats/licenses/readable-stream_2.3.7.txt",
+      "path": "licenses/ui_preview__vendor__reader-formats__licenses__readable-stream_2.3.7.txt.txt"
+    },
+    {
+      "source": "ui_preview/vendor/reader-formats/licenses/safe-buffer_5.1.2.txt",
+      "path": "licenses/ui_preview__vendor__reader-formats__licenses__safe-buffer_5.1.2.txt.txt"
+    },
+    {
+      "source": "ui_preview/vendor/reader-formats/licenses/set-immediate-shim_1.0.1.txt",
+      "path": "licenses/ui_preview__vendor__reader-formats__licenses__set-immediate-shim_1.0.1.txt.txt"
+    },
+    {
+      "source": "ui_preview/vendor/reader-formats/licenses/sprintf-js_1.0.3.txt",
+      "path": "licenses/ui_preview__vendor__reader-formats__licenses__sprintf-js_1.0.3.txt.txt"
+    },
+    {
+      "source": "ui_preview/vendor/reader-formats/licenses/string_decoder_0.10.31.txt",
+      "path": "licenses/ui_preview__vendor__reader-formats__licenses__string_decoder_0.10.31.txt.txt"
+    },
+    {
+      "source": "ui_preview/vendor/reader-formats/licenses/underscore_1.13.1.txt",
+      "path": "licenses/ui_preview__vendor__reader-formats__licenses__underscore_1.13.1.txt.txt"
+    },
+    {
+      "source": "ui_preview/vendor/reader-formats/licenses/util-deprecate_1.0.2.txt",
+      "path": "licenses/ui_preview__vendor__reader-formats__licenses__util-deprecate_1.0.2.txt.txt"
+    },
+    {
+      "source": "ui_preview/vendor/reader-formats/licenses/xmlbuilder_10.0.0.txt",
+      "path": "licenses/ui_preview__vendor__reader-formats__licenses__xmlbuilder_10.0.0.txt.txt"
+    },
+    {
+      "source": "ui_preview/vendor/reader-formats/licenses/xz-5.2.11.txt",
+      "path": "licenses/ui_preview__vendor__reader-formats__licenses__xz-5.2.11.txt.txt"
+    },
+    {
+      "source": "ui_preview/vendor/reader-formats/licenses/zlib-1.3.txt",
+      "path": "licenses/ui_preview__vendor__reader-formats__licenses__zlib-1.3.txt.txt"
+    },
+    {
+      "source": "ui_preview/vendor/reader-formats/mammoth/LICENSE",
+      "path": "licenses/ui_preview__vendor__reader-formats__mammoth__LICENSE.txt"
+    },
+    {
+      "source": "windows_resources/webview2/LICENSE.txt",
+      "path": "licenses/windows_resources__webview2__LICENSE.txt.txt"
+    },
+    {
+      "source": "Liberation corresponding source archive: COPYING",
+      "path": "licenses/Liberation-1.07.4-COPYING.txt"
+    },
+    {
+      "source": "Liberation corresponding source archive: License.txt",
+      "path": "licenses/Liberation-1.07.4-License.txt.txt"
+    },
+    {
+      "source": "Liberation corresponding source archive: README",
+      "path": "licenses/Liberation-1.07.4-README.txt"
+    },
+    {
+      "source": "Liberation corresponding source archive: Makefile",
+      "path": "licenses/Liberation-1.07.4-Makefile.txt"
+    },
+    {
+      "source": "Reviewed original upstream text (see source-provenance.json)",
+      "path": "licenses/GO_LICENSE.txt"
+    },
+    {
+      "source": "Reviewed original upstream text (see source-provenance.json)",
+      "path": "licenses/LICENSE_QUICKJS.txt"
+    },
+    {
+      "source": "Reviewed original upstream text (see source-provenance.json)",
+      "path": "licenses/LICENSE_PDFJS_QUICKJS.txt"
+    }
+  ],
+  "files": [
+    {
+      "path": "licenses/GO_LICENSE.txt",
+      "bytes": 1453,
+      "sha256": "911f8f5782931320f5b8d1160a76365b83aea6447ee6c04fa6d5591467db9dad"
+    },
+    {
+      "path": "licenses/Liberation-1.07.4-COPYING.txt",
+      "bytes": 17987,
+      "sha256": "ab15fd526bd8dd18a9e77ebc139656bf4d33e97fc7238cd11bf60e2b9b8666c6"
+    },
+    {
+      "path": "licenses/Liberation-1.07.4-License.txt.txt",
+      "bytes": 4012,
+      "sha256": "c40dd6adebad817defd68c7edad151d9c13d2ac3b4e1790ce2b727b024438b6d"
+    },
+    {
+      "path": "licenses/Liberation-1.07.4-Makefile.txt",
+      "bytes": 4547,
+      "sha256": "78f5441712f066d30a9bd525515cd40f0e956616133b89763c3a4156dc5e6af6"
+    },
+    {
+      "path": "licenses/Liberation-1.07.4-README.txt",
+      "bytes": 2062,
+      "sha256": "0f9c5beacf180de8cac8e04bc404d1db2f9ec5bd95e497f5162c98405cc2a99b"
+    },
+    {
+      "path": "licenses/LICENSE_PDFJS_QUICKJS.txt",
+      "bytes": 1075,
+      "sha256": "7fdaed3d938f3dfce7189db07e74773c23789143a55db81a95d09dcbfda267b0"
+    },
+    {
+      "path": "licenses/LICENSE_QUICKJS.txt",
+      "bytes": 1130,
+      "sha256": "598fd7fc928e4350abce36e337ba5a1346923c5c692f5be92c3d8e29ddd7c18d"
+    },
+    {
+      "path": "licenses/ui_preview__vendor__pdfjs__cmaps__LICENSE.txt",
+      "bytes": 2080,
+      "sha256": "aa92ab5a472974865a96fd4a4e9c13bb41bf6fe1b309cb6b8da48bc9e19839a2"
+    },
+    {
+      "path": "licenses/ui_preview__vendor__pdfjs__LICENSE.txt",
+      "bytes": 10174,
+      "sha256": "0d542e0c8804e39aa7f37eb00da5a762149dc682d7829451287e11b938e94594"
+    },
+    {
+      "path": "licenses/ui_preview__vendor__pdfjs__standard_fonts__LICENSE_FOXIT.txt",
+      "bytes": 1553,
+      "sha256": "b578cdd2345840ada550bd12519533812320d5f1d21cf4c1c7e1b1b0a31c98b7"
+    },
+    {
+      "path": "licenses/ui_preview__vendor__pdfjs__standard_fonts__LICENSE_LIBERATION.txt",
+      "bytes": 22154,
+      "sha256": "d2c4d5b3e115a519cb58eb691aa64538397e2611f9ebe801392cf9667997e7dc"
+    },
+    {
+      "path": "licenses/ui_preview__vendor__pdfjs__wasm__LICENSE_JBIG2.txt",
+      "bytes": 12862,
+      "sha256": "9e66b7f1b934a28b37f3bc4dac97915de1674271e79a0a88182a18ed9731b4d1"
+    },
+    {
+      "path": "licenses/ui_preview__vendor__pdfjs__wasm__LICENSE_OPENJPEG.txt",
+      "bytes": 2112,
+      "sha256": "a6af136f3e15038a666b61f376612a07d9a4e48cb7c01adbf3e33b3f14ab49b6"
+    },
+    {
+      "path": "licenses/ui_preview__vendor__pdfjs__wasm__LICENSE_PDFJS_JBIG2.txt",
+      "bytes": 555,
+      "sha256": "aad3cce09842e00e9e11ad5e8fef8cc02fbc3a3768fe2f007443b9cee37aaee5"
+    },
+    {
+      "path": "licenses/ui_preview__vendor__pdfjs__wasm__LICENSE_PDFJS_OPENJPEG.txt",
+      "bytes": 1285,
+      "sha256": "717fc62da03292dbb4dd0c8280bd4ce7bb8550dcf31d772bc93455fb50313425"
+    },
+    {
+      "path": "licenses/ui_preview__vendor__pdfjs__wasm__LICENSE_PDFJS_QCMS.txt",
+      "bytes": 1036,
+      "sha256": "508a77d2e7b51d98adeed32648ad124b7b30241a8e70b2e72c99f92d8e5874d1"
+    },
+    {
+      "path": "licenses/ui_preview__vendor__pdfjs__wasm__LICENSE_QCMS.txt",
+      "bytes": 1121,
+      "sha256": "36d847ae882f6574ebc72f56a4f354e4f104fde4a584373496482e97d52d31bc"
+    },
+    {
+      "path": "licenses/ui_preview__vendor__reader-chinese__LICENSE.txt",
+      "bytes": 1080,
+      "sha256": "960f7fc16d8baa126802316a7df9078a383af4fb6bc60033adb28e85c08d5e5e"
+    },
+    {
+      "path": "licenses/ui_preview__vendor__reader-chinese__LICENSES__Apache-2.0.txt.txt",
+      "bytes": 9165,
+      "sha256": "b534e465949558eec2597b04f5092b5e161236a68dfbfd04d547592ac3964308"
+    },
+    {
+      "path": "licenses/ui_preview__vendor__reader-chinese__THIRD_PARTY_LICENSES.md.txt",
+      "bytes": 10232,
+      "sha256": "42c7dbe71c178fcca97ba945e9ac9ff360fb69bbfea4cb50556f6c65bfa59806"
+    },
+    {
+      "path": "licenses/ui_preview__vendor__reader-formats__djvu-rs__LICENSE.txt",
+      "bytes": 1071,
+      "sha256": "9b634d974fb7ccacccc877fa6b36016eb48884b09732485d7ad92b6294699163"
+    },
+    {
+      "path": "licenses/ui_preview__vendor__reader-formats__foliate__LICENSE.txt",
+      "bytes": 1070,
+      "sha256": "b621ffc351fe263bc9b09dd0bc1c9332fda9c462a3904c1e4f0b4d3236b9c28c"
+    },
+    {
+      "path": "licenses/ui_preview__vendor__reader-formats__libarchive.js__LICENSE.txt",
+      "bytes": 1069,
+      "sha256": "cd2233ededca3500350239c4995a3bf4f57cb810b77074d266b0fb0d781dc161"
+    },
+    {
+      "path": "licenses/ui_preview__vendor__reader-formats__licenses___xmldom_xmldom_0.8.6.txt.txt",
+      "bytes": 1322,
+      "sha256": "abfd3e77e14a1ca967033a371cc2ba36efca8199eafca0857873ac969b8483d6"
+    },
+    {
+      "path": "licenses/ui_preview__vendor__reader-formats__licenses__argparse_1.0.9.txt.txt",
+      "bytes": 1103,
+      "sha256": "7a372b351e8fccfd0a5fa23e0939c6c371915a67c7a32b4321dd1d9172214bbd"
+    },
+    {
+      "path": "licenses/ui_preview__vendor__reader-formats__licenses__base64-js_1.5.1.txt.txt",
+      "bytes": 1105,
+      "sha256": "4fb68b4339c9bf0c131e3546c6ae0849af18741cf0b35a5791277a1d41ebde46"
+    },
+    {
+      "path": "licenses/ui_preview__vendor__reader-formats__licenses__bluebird_3.4.7.txt.txt",
+      "bytes": 1110,
+      "sha256": "e86b9e7ed3a674604f3090502e1fdf594ae77530e54ce69de1f410a2139f2236"
+    },
+    {
+      "path": "licenses/ui_preview__vendor__reader-formats__licenses__buffer_4.9.1.txt.txt",
+      "bytes": 1130,
+      "sha256": "2a27b2092812a71d57ca5b1394cd455a66d3659deee73b37d634a99dc903df47"
+    },
+    {
+      "path": "licenses/ui_preview__vendor__reader-formats__licenses__bzip2-1.0.8.txt.txt",
+      "bytes": 1896,
+      "sha256": "c6dbbf828498be844a89eaa3b84adbab3199e342eb5cb2ed2f0d4ba7ec0f38a3"
+    },
+    {
+      "path": "licenses/ui_preview__vendor__reader-formats__licenses__comlink_4.4.1.txt.txt",
+      "bytes": 11365,
+      "sha256": "b4b869fcc402d184622d2cb5435e7e423a339e546bbb197f5ae4ee797d4b0756"
+    },
+    {
+      "path": "licenses/ui_preview__vendor__reader-formats__licenses__core-util-is_1.0.2.txt.txt",
+      "bytes": 1101,
+      "sha256": "e138adc826bf43fb86f394ac21f3192bd8f1a368d0993b02b758a61472ac0c9c"
+    },
+    {
+      "path": "licenses/ui_preview__vendor__reader-formats__licenses__dingbat-to-unicode_1.0.2.txt.txt",
+      "bytes": 1328,
+      "sha256": "ca5274d123410c66ece3369100038ceec46c4df436b4e8e74283b4b3ab4985fd"
+    },
+    {
+      "path": "licenses/ui_preview__vendor__reader-formats__licenses__duck_0.1.12.txt.txt",
+      "bytes": 1331,
+      "sha256": "bb5b42bb7932228eb1a0bc0d4f974c52ac61290ee12e8ac6372d78b8abcf429a"
+    },
+    {
+      "path": "licenses/ui_preview__vendor__reader-formats__licenses__emscripten.txt.txt",
+      "bytes": 5093,
+      "sha256": "620a78084fc7ca97c0b5dea9abf891f3ffcadfdbf305276f099c9c4e12fc1d86"
+    },
+    {
+      "path": "licenses/ui_preview__vendor__reader-formats__licenses__ieee754_1.1.8.txt.txt",
+      "bytes": 1530,
+      "sha256": "94c4b739b6162a36de334c386ead1bd191edd2e33b78dd2fe4d4287607ad1847"
+    },
+    {
+      "path": "licenses/ui_preview__vendor__reader-formats__licenses__immediate_3.0.6.txt.txt",
+      "bytes": 1143,
+      "sha256": "8a397b725cf4aebf471d53c681d9dcf7c29ead546fd8217c2c428c56ea2dd3a1"
+    },
+    {
+      "path": "licenses/ui_preview__vendor__reader-formats__licenses__inherits_2.0.3.txt.txt",
+      "bytes": 773,
+      "sha256": "62fb0f86717994ad7578a9636d587cff2507770fd674fe233a71a6625c52c6a6"
+    },
+    {
+      "path": "licenses/ui_preview__vendor__reader-formats__licenses__isarray_1.0.0.txt.txt",
+      "bytes": 1916,
+      "sha256": "928968058dac3d2ffbcfb79d97d49ae9f1b0db4a53ebd527edb7622c25a0eb17"
+    },
+    {
+      "path": "licenses/ui_preview__vendor__reader-formats__licenses__jszip_3.7.1.txt.txt",
+      "bytes": 34203,
+      "sha256": "dade58c7e10b38a47c011c3f1e35cb6d759dee0dd71b70e6ff746ebd3e98a0ff"
+    },
+    {
+      "path": "licenses/ui_preview__vendor__reader-formats__licenses__libarchive-3.7.2.txt.txt",
+      "bytes": 3086,
+      "sha256": "b2cdf763345de2de34cebf54394df3c61a105c3b71288603c251f2fa638200ba"
+    },
+    {
+      "path": "licenses/ui_preview__vendor__reader-formats__licenses__lie_3.3.0.txt.txt",
+      "bytes": 1111,
+      "sha256": "84d96bac894015d72b41620d3154283fd308239ab259f261c18c27ad97b492f0"
+    },
+    {
+      "path": "licenses/ui_preview__vendor__reader-formats__licenses__lop_0.4.2.txt.txt",
+      "bytes": 1331,
+      "sha256": "bb5b42bb7932228eb1a0bc0d4f974c52ac61290ee12e8ac6372d78b8abcf429a"
+    },
+    {
+      "path": "licenses/ui_preview__vendor__reader-formats__licenses__openssl-1.0.2s.txt.txt",
+      "bytes": 6281,
+      "sha256": "c8f60f4842bbad0353f5d81620e72b168b5638ca3a0a999f5da113b22491612e"
+    },
+    {
+      "path": "licenses/ui_preview__vendor__reader-formats__licenses__option_0.2.4.txt.txt",
+      "bytes": 1331,
+      "sha256": "bb5b42bb7932228eb1a0bc0d4f974c52ac61290ee12e8ac6372d78b8abcf429a"
+    },
+    {
+      "path": "licenses/ui_preview__vendor__reader-formats__licenses__pako_1.0.11.txt.txt",
+      "bytes": 1128,
+      "sha256": "88a578c02aca466bba9d6019cab2b6486a1e9625337fcab780419cb1e8b36b56"
+    },
+    {
+      "path": "licenses/ui_preview__vendor__reader-formats__licenses__process_0.11.9.txt.txt",
+      "bytes": 1122,
+      "sha256": "0ee31dd80f379e3b977cac6f6ac3f3ddeea574c654f1b58fc52f18ef0a1e0e98"
+    },
+    {
+      "path": "licenses/ui_preview__vendor__reader-formats__licenses__process-nextick-args_1.0.7.txt.txt",
+      "bytes": 1091,
+      "sha256": "3a862d882bb661f7c14ec61c6eaedc64915ee14b8fea4e912b50c226ee311798"
+    },
+    {
+      "path": "licenses/ui_preview__vendor__reader-formats__licenses__readable-stream_2.3.7.txt.txt",
+      "bytes": 2361,
+      "sha256": "093f422b1925355576f64f8b8c1dc3d84ee4056d438a37e59cbe280fd949f108"
+    },
+    {
+      "path": "licenses/ui_preview__vendor__reader-formats__licenses__safe-buffer_5.1.2.txt.txt",
+      "bytes": 1105,
+      "sha256": "fb1daafcf12bfc6ef49e99d0dcdecabd2ac278810670d121d6491305d7321b98"
+    },
+    {
+      "path": "licenses/ui_preview__vendor__reader-formats__licenses__set-immediate-shim_1.0.1.txt.txt",
+      "bytes": 584,
+      "sha256": "eb734fc52587384e319e36290f11f19d91b0c4f8c71649ae5d10f068ce4bd6ff"
+    },
+    {
+      "path": "licenses/ui_preview__vendor__reader-formats__licenses__sprintf-js_1.0.3.txt.txt",
+      "bytes": 1542,
+      "sha256": "8a8acea10f54ae0c01854a61e29b94d4948d8788ceb13dd1896d2a49d67537f8"
+    },
+    {
+      "path": "licenses/ui_preview__vendor__reader-formats__licenses__string_decoder_0.10.31.txt.txt",
+      "bytes": 1100,
+      "sha256": "bf5041fccb6e9e402f9b3e622348c0108cd09bb1d4d0176cdfb2b200bbc63418"
+    },
+    {
+      "path": "licenses/ui_preview__vendor__reader-formats__licenses__underscore_1.13.1.txt.txt",
+      "bytes": 1163,
+      "sha256": "22af423d26f4cf7b845a97abf27054f8d4c2512111a5b9abf6129fcbb9443ec7"
+    },
+    {
+      "path": "licenses/ui_preview__vendor__reader-formats__licenses__util-deprecate_1.0.2.txt.txt",
+      "bytes": 1126,
+      "sha256": "4ad302e815762afd661ce3024fa0d5b5f40e43416b4e035133ec103324a803f7"
+    },
+    {
+      "path": "licenses/ui_preview__vendor__reader-formats__licenses__xmlbuilder_10.0.0.txt.txt",
+      "bytes": 1104,
+      "sha256": "5b932b849b6420e9c2605db5a1925a79ac3db0434ccf06ce4f502feb9b0b8f08"
+    },
+    {
+      "path": "licenses/ui_preview__vendor__reader-formats__licenses__xz-5.2.11.txt.txt",
+      "bytes": 2775,
+      "sha256": "bcb02973ef6e87ea73d331b3a80df7748407f17efdb784b61b47e0e610d3bb5c"
+    },
+    {
+      "path": "licenses/ui_preview__vendor__reader-formats__licenses__zlib-1.3.txt.txt",
+      "bytes": 1002,
+      "sha256": "845efc77857d485d91fb3e0b884aaa929368c717ae8186b66fe1ed2495753243"
+    },
+    {
+      "path": "licenses/ui_preview__vendor__reader-formats__LICENSES.json.txt",
+      "bytes": 10363,
+      "sha256": "dc0af46d856b02565923e86d737f699004f0ee414c952965cf6c1d94eef0f968"
+    },
+    {
+      "path": "licenses/ui_preview__vendor__reader-formats__mammoth__LICENSE.txt",
+      "bytes": 1307,
+      "sha256": "6663bbd049205d38a496ccacb412a151980b444627d38de218b3b809aef330f1"
+    },
+    {
+      "path": "licenses/ui_preview__vendor__reader-formats__THIRD_PARTY_NOTICES.md.txt",
+      "bytes": 1800,
+      "sha256": "93fae7d1a91238c721f9af4de30d02f75882398c610d5b8fe65f48634c977c3a"
+    },
+    {
+      "path": "licenses/windows_resources__webview2__LICENSE.txt.txt",
+      "bytes": 1487,
+      "sha256": "0af8f1b807512aae39c2ac1aa4d0cae65cabecb6fd554b8439a5162a0d6eca55"
+    },
+    {
+      "path": "source-provenance.json",
+      "bytes": 2261,
+      "sha256": "384caac35d3d4b91165f978d7657eedbe740f8a17217d99dfa7069783c058154"
+    },
+    {
+      "path": "sources/liberation-fonts-1.07.4.tar.gz",
+      "bytes": 2937949,
+      "sha256": "ad98b7498dc2992f7f0868f79b65ce4a720a3acdb63ab3f1f1cb6881117a5406"
+    },
+    {
+      "path": "THIRD_PARTY_NOTICES.txt",
+      "bytes": 239528,
+      "sha256": "a91e0ff825eae3eb6f9f4ae67e68eec0f442d9671863fd68cfa1004e47cded31"
+    }
+  ],
+  "inputs": [
+    {
+      "path": "ui_preview/vendor/pdfjs/LICENSE",
+      "sha256": "0d542e0c8804e39aa7f37eb00da5a762149dc682d7829451287e11b938e94594"
+    },
+    {
+      "path": "ui_preview/vendor/pdfjs/cmaps/78-EUC-H.bcmap",
+      "sha256": "d92a261336dc18b8c03a46eb4d462382d33f4338fa195d303256b2031434c874"
+    },
+    {
+      "path": "ui_preview/vendor/pdfjs/cmaps/78-EUC-V.bcmap",
+      "sha256": "61670bebc4e4827b67230c054fd0d820d6e30c3584d02e386804e62bbedc032a"
+    },
+    {
+      "path": "ui_preview/vendor/pdfjs/cmaps/78-H.bcmap",
+      "sha256": "ece6415b853d61e1b2560165151407d35cf16e6556932b85a13ea75276b77402"
+    },
+    {
+      "path": "ui_preview/vendor/pdfjs/cmaps/78-RKSJ-H.bcmap",
+      "sha256": "696b1f973c97623496703809eaaa5f9b40696c77540057413f4b826a08edfa7b"
+    },
+    {
+      "path": "ui_preview/vendor/pdfjs/cmaps/78-RKSJ-V.bcmap",
+      "sha256": "53cb6d560ab377da48cf65d6dcacb0bdb31f13fab7066c580de38c12a73a7ff9"
+    },
+    {
+      "path": "ui_preview/vendor/pdfjs/cmaps/78-V.bcmap",
+      "sha256": "289000f02fd34872b6975503217f33abae6bee676e7d28f640473a67c8db1712"
+    },
+    {
+      "path": "ui_preview/vendor/pdfjs/cmaps/78ms-RKSJ-H.bcmap",
+      "sha256": "a2442595218f5f8bd8e1b42188e368587d876cfe0cc4cd87196f077c878f72e2"
+    },
+    {
+      "path": "ui_preview/vendor/pdfjs/cmaps/78ms-RKSJ-V.bcmap",
+      "sha256": "f8ddceba96bfd9d3740bd1789ee30d1f47c78371520a8084f71f7df58f19be0b"
+    },
+    {
+      "path": "ui_preview/vendor/pdfjs/cmaps/83pv-RKSJ-H.bcmap",
+      "sha256": "44040051ec818fe09b9703472bea72efd2759d5eeb5ff0d77c718d6bb5e6d1df"
+    },
+    {
+      "path": "ui_preview/vendor/pdfjs/cmaps/90ms-RKSJ-H.bcmap",
+      "sha256": "c13e043e85ff715b75bb03801e8fd0fb8f3a75e4a48496faa6baaf92b5b48ba1"
+    },
+    {
+      "path": "ui_preview/vendor/pdfjs/cmaps/90ms-RKSJ-V.bcmap",
+      "sha256": "499bb916ce1adbe4289b6e5811f4dc20eb238cdc2ffad20cf26ae56716885bab"
+    },
+    {
+      "path": "ui_preview/vendor/pdfjs/cmaps/90msp-RKSJ-H.bcmap",
+      "sha256": "7b8b3b8bbf821702e9a4df9f3596ce292380c8c1b0925dedadbb4e4b2d80498b"
+    },
+    {
+      "path": "ui_preview/vendor/pdfjs/cmaps/90msp-RKSJ-V.bcmap",
+      "sha256": "6296c2b5c07dca8128e96d5296d621a3268803d4fa0e5812a21e52fe2802aacb"
+    },
+    {
+      "path": "ui_preview/vendor/pdfjs/cmaps/90pv-RKSJ-H.bcmap",
+      "sha256": "fb5103f03d3a34547e18d316e52b6d9b26e485c662999222f84d2ba54c2e4fa8"
+    },
+    {
+      "path": "ui_preview/vendor/pdfjs/cmaps/90pv-RKSJ-V.bcmap",
+      "sha256": "7bcb5ad2ba55b9662ce379e16c2d9cc2b82d621a579807353741172e4af615c2"
+    },
+    {
+      "path": "ui_preview/vendor/pdfjs/cmaps/Add-H.bcmap",
+      "sha256": "a2ffab28b990998181bcca9b0e914bb2207820f100ae31d5c469444892e5ad8e"
+    },
+    {
+      "path": "ui_preview/vendor/pdfjs/cmaps/Add-RKSJ-H.bcmap",
+      "sha256": "b29f4b52e2465d0485856d5e69f1ba69927deb2848d8fd328c8035583b35bb7e"
+    },
+    {
+      "path": "ui_preview/vendor/pdfjs/cmaps/Add-RKSJ-V.bcmap",
+      "sha256": "2aa2232c283a3f5d0997c2834a36cead0b79ce2657944cfeed08140c293460ff"
+    },
+    {
+      "path": "ui_preview/vendor/pdfjs/cmaps/Add-V.bcmap",
+      "sha256": "25125d3b1be64e86b2df5b3344170b45a42bcaa0b46e43a34314ef73c166e542"
+    },
+    {
+      "path": "ui_preview/vendor/pdfjs/cmaps/Adobe-CNS1-0.bcmap",
+      "sha256": "8c65be9d51a9f269a547dc12460707aaf4031ab67ebe8a2900f4b4cc6b3e450e"
+    },
+    {
+      "path": "ui_preview/vendor/pdfjs/cmaps/Adobe-CNS1-1.bcmap",
+      "sha256": "73152bc1a59cc594b414ac6068be48e5512b96ae85920c40e32a99269fdb0c04"
+    },
+    {
+      "path": "ui_preview/vendor/pdfjs/cmaps/Adobe-CNS1-2.bcmap",
+      "sha256": "a1b8d353bdef9584c820464e8f1c9e2013d64ebf433cba0aa831dddf515818c2"
+    },
+    {
+      "path": "ui_preview/vendor/pdfjs/cmaps/Adobe-CNS1-3.bcmap",
+      "sha256": "2ffc0c75c79fafde506163d3c08c390d183251009f3fbf6ae50d1167d14b9570"
+    },
+    {
+      "path": "ui_preview/vendor/pdfjs/cmaps/Adobe-CNS1-4.bcmap",
+      "sha256": "98a1f470c878c6b9691a4d7aef776af8ac9b55f5587c9fafa00547f3bf655716"
+    },
+    {
+      "path": "ui_preview/vendor/pdfjs/cmaps/Adobe-CNS1-5.bcmap",
+      "sha256": "ddd6e29955eb8cb545f2ebd09c628c3bbda5023256eda1b728f743c75fb77829"
+    },
+    {
+      "path": "ui_preview/vendor/pdfjs/cmaps/Adobe-CNS1-6.bcmap",
+      "sha256": "317bb2db71e0e5b7b0c47b75de1da915c2e22f65f0c0861507f9ca7ba238f8a2"
+    },
+    {
+      "path": "ui_preview/vendor/pdfjs/cmaps/Adobe-CNS1-UCS2.bcmap",
+      "sha256": "e665837f2197c6bd08cd8955ad4d6932cee2398e2e328b25b00e6bfb3bd72af9"
+    },
+    {
+      "path": "ui_preview/vendor/pdfjs/cmaps/Adobe-GB1-0.bcmap",
+      "sha256": "8b81cce8a11d510e505704953cfa4e4ab080c1a0cab991145a3512ee433946b9"
+    },
+    {
+      "path": "ui_preview/vendor/pdfjs/cmaps/Adobe-GB1-1.bcmap",
+      "sha256": "0426983081788ec7202703e71f1efa4b860f75b936994236010b39d89251a81e"
+    },
+    {
+      "path": "ui_preview/vendor/pdfjs/cmaps/Adobe-GB1-2.bcmap",
+      "sha256": "e67b37a83b160ab3831306a71a605893b24454ee81ac9b6123bf2d3984d268d5"
+    },
+    {
+      "path": "ui_preview/vendor/pdfjs/cmaps/Adobe-GB1-3.bcmap",
+      "sha256": "aa299afc3e12a28726147305f191be28c7498078c8b182ece7886ac79cd99078"
+    },
+    {
+      "path": "ui_preview/vendor/pdfjs/cmaps/Adobe-GB1-4.bcmap",
+      "sha256": "8fbd7d74c2ddb1350c1cecce54a73fde3f5453093d4bed445283ec0033d2097f"
+    },
+    {
+      "path": "ui_preview/vendor/pdfjs/cmaps/Adobe-GB1-5.bcmap",
+      "sha256": "c22cb2fcff24112fa31dab2111bdc51957006576d31aad5a25e67793ac01428c"
+    },
+    {
+      "path": "ui_preview/vendor/pdfjs/cmaps/Adobe-GB1-UCS2.bcmap",
+      "sha256": "20507620260c0c935c35afc1e70e5888aa7125d5ec7ffc03cef1959feb2c1641"
+    },
+    {
+      "path": "ui_preview/vendor/pdfjs/cmaps/Adobe-Japan1-0.bcmap",
+      "sha256": "464f08905236f5703b1f5cf8358767c8b18e6bcc808840d081f1de2c7ab38134"
+    },
+    {
+      "path": "ui_preview/vendor/pdfjs/cmaps/Adobe-Japan1-1.bcmap",
+      "sha256": "4c823848722187d1ffe75ae3f5f9126ccd2d7895a05fad14c919fb119e037008"
+    },
+    {
+      "path": "ui_preview/vendor/pdfjs/cmaps/Adobe-Japan1-2.bcmap",
+      "sha256": "7810fb808e367e70429e90a9478fe6a3fdc3e214f25c7582ce9c2da6a242315c"
+    },
+    {
+      "path": "ui_preview/vendor/pdfjs/cmaps/Adobe-Japan1-3.bcmap",
+      "sha256": "84deb1828711ad3d390c9899c38abce1bf619d65ff7bf1a326ec95acc45f08f8"
+    },
+    {
+      "path": "ui_preview/vendor/pdfjs/cmaps/Adobe-Japan1-4.bcmap",
+      "sha256": "3f8a4f974919c2b8bae5d10175ffa2673be140481e00840542c85d48ef184067"
+    },
+    {
+      "path": "ui_preview/vendor/pdfjs/cmaps/Adobe-Japan1-5.bcmap",
+      "sha256": "1d3ce4ff28d977f8cf37a912ae4ec811f4175c3167b1ec0b2567feec3e79e1db"
+    },
+    {
+      "path": "ui_preview/vendor/pdfjs/cmaps/Adobe-Japan1-6.bcmap",
+      "sha256": "5609797b9401b30be72ef9645da62a87829f058c3be4b5c623383119f584b1d9"
+    },
+    {
+      "path": "ui_preview/vendor/pdfjs/cmaps/Adobe-Japan1-UCS2.bcmap",
+      "sha256": "66c5d0dc4964f4093e77b194023f3a0f689324028ec8330e1e1d0570bcba7c2f"
+    },
+    {
+      "path": "ui_preview/vendor/pdfjs/cmaps/Adobe-Korea1-0.bcmap",
+      "sha256": "dfb8c3874f0e5a8c3acf597d2c12d2b63e90bc5e4f0fce990ec4c56077d80b32"
+    },
+    {
+      "path": "ui_preview/vendor/pdfjs/cmaps/Adobe-Korea1-1.bcmap",
+      "sha256": "62f277b7b1c441c007797ae707d5c37258d029ce4661a2b911e2e1ee35e6adc1"
+    },
+    {
+      "path": "ui_preview/vendor/pdfjs/cmaps/Adobe-Korea1-2.bcmap",
+      "sha256": "1d77068af462f96d7ad28ad7e7d43eef6423c685b479d7dc25ff5df38db0380d"
+    },
+    {
+      "path": "ui_preview/vendor/pdfjs/cmaps/Adobe-Korea1-UCS2.bcmap",
+      "sha256": "857b723088be97255053562bfa41bd1075a7f7910d3bab59a0645c8bbc7060ff"
+    },
+    {
+      "path": "ui_preview/vendor/pdfjs/cmaps/B5-H.bcmap",
+      "sha256": "718ad0ffbef4c34f8f3f31292c462e519cd567a5511fc8b346c60010d64f4ef9"
+    },
+    {
+      "path": "ui_preview/vendor/pdfjs/cmaps/B5-V.bcmap",
+      "sha256": "b5c37383517477620ced927b6b4ffd4f4cc6230d8051b5b46a21d6768e07f7d8"
+    },
+    {
+      "path": "ui_preview/vendor/pdfjs/cmaps/B5pc-H.bcmap",
+      "sha256": "bab6028aead1d6149400e904ab10cfd319082d826473ed4c582c8eeed920f17e"
+    },
+    {
+      "path": "ui_preview/vendor/pdfjs/cmaps/B5pc-V.bcmap",
+      "sha256": "41543142b9767f3b76133899fc8453282b01ad3c653acaeea42d78c5a7d08c63"
+    },
+    {
+      "path": "ui_preview/vendor/pdfjs/cmaps/CNS-EUC-H.bcmap",
+      "sha256": "e8f89cd61e6486b948205da46499d659ed0aed949b7095fd3c8e95ffe2b0e7a9"
+    },
+    {
+      "path": "ui_preview/vendor/pdfjs/cmaps/CNS-EUC-V.bcmap",
+      "sha256": "cae422bec2ac6dbe86bf921cec942bacd2d0b733ffcca5f91b3ba14e917025a0"
+    },
+    {
+      "path": "ui_preview/vendor/pdfjs/cmaps/CNS1-H.bcmap",
+      "sha256": "e8487971ab20cd16f3de3e8ac56ec994b72b658ad113f2818239dfd5108f501a"
+    },
+    {
+      "path": "ui_preview/vendor/pdfjs/cmaps/CNS1-V.bcmap",
+      "sha256": "42df8076aaa7574505e7304af83a3323ec032c4177d64b1309db8c043d594a8a"
+    },
+    {
+      "path": "ui_preview/vendor/pdfjs/cmaps/CNS2-H.bcmap",
+      "sha256": "bc6024d274d440f0625c69e25f37036ef6cb6689432ceaa160d3432a2a716ca7"
+    },
+    {
+      "path": "ui_preview/vendor/pdfjs/cmaps/CNS2-V.bcmap",
+      "sha256": "2e4f70a8afd23a121030fc2e5b5f3816e903b11e7ba8b8c09654b31c80399c38"
+    },
+    {
+      "path": "ui_preview/vendor/pdfjs/cmaps/ETHK-B5-H.bcmap",
+      "sha256": "d2f10fa519336bc4efcc7b6deb9604b75429946b40d82e311cb3a97a1994c89a"
+    },
+    {
+      "path": "ui_preview/vendor/pdfjs/cmaps/ETHK-B5-V.bcmap",
+      "sha256": "1fea3fd0d9f0f679f80505800851ef2e4131d81127e18c006938ffa2f4c8b247"
+    },
+    {
+      "path": "ui_preview/vendor/pdfjs/cmaps/ETen-B5-H.bcmap",
+      "sha256": "87ee6b3f5bfda5fe26fa35431264c7d73070d10dbbf398a75185d63ae322c18d"
+    },
+    {
+      "path": "ui_preview/vendor/pdfjs/cmaps/ETen-B5-V.bcmap",
+      "sha256": "47dc0d2c21e3bde317947aec1675ceabc1d5460a60bf9c24334b8c407a17172c"
+    },
+    {
+      "path": "ui_preview/vendor/pdfjs/cmaps/ETenms-B5-H.bcmap",
+      "sha256": "d5f5a73da4173b7da9a3a20e16f26f9cd5d12deb1553409919e0cec6fd37fdee"
+    },
+    {
+      "path": "ui_preview/vendor/pdfjs/cmaps/ETenms-B5-V.bcmap",
+      "sha256": "18252fca90f472f479af1bddd60d6ab51c8e1b55dcf6845951426504934543e0"
+    },
+    {
+      "path": "ui_preview/vendor/pdfjs/cmaps/EUC-H.bcmap",
+      "sha256": "f9939cd57fccdc65c5d9f4c205fd497ebdbd283643308da5663801a8c1d9c595"
+    },
+    {
+      "path": "ui_preview/vendor/pdfjs/cmaps/EUC-V.bcmap",
+      "sha256": "1283a50a706507c4436da83ede9ad7a4440be25378f2e96f6c81a430081426a3"
+    },
+    {
+      "path": "ui_preview/vendor/pdfjs/cmaps/Ext-H.bcmap",
+      "sha256": "4000ed4e61a1c668ef453bbd0603cfa383defa793abd46a57ed870d7f527350b"
+    },
+    {
+      "path": "ui_preview/vendor/pdfjs/cmaps/Ext-RKSJ-H.bcmap",
+      "sha256": "e0d2f0df337660e73813238dd4a725f11f0621b90f3273857db253d0e7694caa"
+    },
+    {
+      "path": "ui_preview/vendor/pdfjs/cmaps/Ext-RKSJ-V.bcmap",
+      "sha256": "f617a22b6d67febb187990952006c91a9f5a4db21155d268c656252d0c21985d"
+    },
+    {
+      "path": "ui_preview/vendor/pdfjs/cmaps/Ext-V.bcmap",
+      "sha256": "c2087fb845a9e3acea0c2922cd40e6af67e11957bec74dcd597f1285edd490ce"
+    },
+    {
+      "path": "ui_preview/vendor/pdfjs/cmaps/GB-EUC-H.bcmap",
+      "sha256": "928bad06fd84a48f5ba7150d7716609119fb660f2aaa73eccad81ddab9b9d203"
+    },
+    {
+      "path": "ui_preview/vendor/pdfjs/cmaps/GB-EUC-V.bcmap",
+      "sha256": "a9ad88ac2479da529b16dc48abc5952332e27bc355335f91df5729a587533324"
+    },
+    {
+      "path": "ui_preview/vendor/pdfjs/cmaps/GB-H.bcmap",
+      "sha256": "1018c777a8910b5bb46d7d54a4aee9d51ca5cff8addb2b41c969d9101cb3fd1c"
+    },
+    {
+      "path": "ui_preview/vendor/pdfjs/cmaps/GB-V.bcmap",
+      "sha256": "0b96789143c0bbf9f1641ae7165b3456dccd14dabffcbb0bd654d5bf6f94f863"
+    },
+    {
+      "path": "ui_preview/vendor/pdfjs/cmaps/GBK-EUC-H.bcmap",
+      "sha256": "2103fed28650ede096a2281104a1a8a4304dae0db414342c636867522307123b"
+    },
+    {
+      "path": "ui_preview/vendor/pdfjs/cmaps/GBK-EUC-V.bcmap",
+      "sha256": "a7fd35dd14d9dbdb955f34e6c0630618b6620dfd09d4283b2f65a65ce77fcaea"
+    },
+    {
+      "path": "ui_preview/vendor/pdfjs/cmaps/GBK2K-H.bcmap",
+      "sha256": "3d919ae72af16c5cc6846ec87a4326a9f125e493c59d3628429d35c2c95fe8c4"
+    },
+    {
+      "path": "ui_preview/vendor/pdfjs/cmaps/GBK2K-V.bcmap",
+      "sha256": "b927fdfd595c07ce9158bf2ec13f4641b2e83b01c70989dadfabd6ed7c6ac2dc"
+    },
+    {
+      "path": "ui_preview/vendor/pdfjs/cmaps/GBKp-EUC-H.bcmap",
+      "sha256": "d15ebd8e81fb4fe8a244f1b1e877922e03500ac69eddf5001093e502430451d2"
+    },
+    {
+      "path": "ui_preview/vendor/pdfjs/cmaps/GBKp-EUC-V.bcmap",
+      "sha256": "fdc736d46e642625dccc8ad8c59f2c69fc7db7a13f2e799c6c6b779e707bb97a"
+    },
+    {
+      "path": "ui_preview/vendor/pdfjs/cmaps/GBT-EUC-H.bcmap",
+      "sha256": "dc5f44e48a39f3367ae28665027d8ab1d8cedb5a9dcc5068a900acd6709f60f9"
+    },
+    {
+      "path": "ui_preview/vendor/pdfjs/cmaps/GBT-EUC-V.bcmap",
+      "sha256": "a1ad24e63653b8aa388c18fa5e498f007564e43dde699a9f91ccb4645c999be8"
+    },
+    {
+      "path": "ui_preview/vendor/pdfjs/cmaps/GBT-H.bcmap",
+      "sha256": "8afda745a505763f3ff54c8126eeb48ef376ea9ed07d9f42ff9a22c5c547ec57"
+    },
+    {
+      "path": "ui_preview/vendor/pdfjs/cmaps/GBT-V.bcmap",
+      "sha256": "cdc2ec5c3c7c7033290c9a8894878202f08674eb9b1ae7d36218430326768771"
+    },
+    {
+      "path": "ui_preview/vendor/pdfjs/cmaps/GBTpc-EUC-H.bcmap",
+      "sha256": "7b23e2f7bfdb6c918f567b7324bf858f398bd8cd5f268d74ece19a3c91bf4f32"
+    },
+    {
+      "path": "ui_preview/vendor/pdfjs/cmaps/GBTpc-EUC-V.bcmap",
+      "sha256": "d7a1b13ead9ab511cf2cd01de6ce8b02aa8e8767e84895337d7a3b67f039f93b"
+    },
+    {
+      "path": "ui_preview/vendor/pdfjs/cmaps/GBpc-EUC-H.bcmap",
+      "sha256": "3c4a4eb82f05abe51f6650985c630e180438bfdd491318f5d20d2ec29236e1c3"
+    },
+    {
+      "path": "ui_preview/vendor/pdfjs/cmaps/GBpc-EUC-V.bcmap",
+      "sha256": "215bdfa2842705624b4cf4cd29b8e3c720f1e192365e0305c11030a424c84d7c"
+    },
+    {
+      "path": "ui_preview/vendor/pdfjs/cmaps/H.bcmap",
+      "sha256": "a0233e21047ec00b852125b243cbcf30abee511155b6d8159c24f944384bc9ee"
+    },
+    {
+      "path": "ui_preview/vendor/pdfjs/cmaps/HKdla-B5-H.bcmap",
+      "sha256": "5242bce18fb13ab4cc59b146a03eba36e4ce42667eeff09e10981a9d2aa4996b"
+    },
+    {
+      "path": "ui_preview/vendor/pdfjs/cmaps/HKdla-B5-V.bcmap",
+      "sha256": "2e0537f786c0791d41a925f72bad2d4e7268aa6cbf15a1400a722672cec38e2c"
+    },
+    {
+      "path": "ui_preview/vendor/pdfjs/cmaps/HKdlb-B5-H.bcmap",
+      "sha256": "fdc8159984bf5dbe475c0d5dfcb621ecee4dea07c38c668bd77f4c679e23b9b3"
+    },
+    {
+      "path": "ui_preview/vendor/pdfjs/cmaps/HKdlb-B5-V.bcmap",
+      "sha256": "b249eb9dcb915ab45057c5d4d7aa55ef88d0efbb092af6bae0b2d4705d139abf"
+    },
+    {
+      "path": "ui_preview/vendor/pdfjs/cmaps/HKgccs-B5-H.bcmap",
+      "sha256": "ab64c7fc5e9b2e97750cc4f269b0da14fd8649e49151b7598c8df86599bac591"
+    },
+    {
+      "path": "ui_preview/vendor/pdfjs/cmaps/HKgccs-B5-V.bcmap",
+      "sha256": "02ebdf7cdffb5395fb21091cd58a013a18ae5388922822f9dc6292ef16b98956"
+    },
+    {
+      "path": "ui_preview/vendor/pdfjs/cmaps/HKm314-B5-H.bcmap",
+      "sha256": "bfd8bbde6b36a9da4c1c902c74121a30d9807a7079a00eeea218be6adc223cef"
+    },
+    {
+      "path": "ui_preview/vendor/pdfjs/cmaps/HKm314-B5-V.bcmap",
+      "sha256": "2a64a815cfb6fdd480674a868762e3d161fda17543b20c9209978559f0667164"
+    },
+    {
+      "path": "ui_preview/vendor/pdfjs/cmaps/HKm471-B5-H.bcmap",
+      "sha256": "49d7c037758826b5b6c0fa329c35bbf25d3943197754e72ecd30c6fb04d745e6"
+    },
+    {
+      "path": "ui_preview/vendor/pdfjs/cmaps/HKm471-B5-V.bcmap",
+      "sha256": "be24c109e78aa4fe3c1f27d30aab3ed0741e783fa1b6b6c2719741072b54b132"
+    },
+    {
+      "path": "ui_preview/vendor/pdfjs/cmaps/HKscs-B5-H.bcmap",
+      "sha256": "08599378f41d96b40537adef6e6edcc4a787bc63f5accf47c026df4905a13914"
+    },
+    {
+      "path": "ui_preview/vendor/pdfjs/cmaps/HKscs-B5-V.bcmap",
+      "sha256": "d073542b7dad1c4cbf01c1af5f0cd13218d1281a491956e310c55702fc8705c4"
+    },
+    {
+      "path": "ui_preview/vendor/pdfjs/cmaps/Hankaku.bcmap",
+      "sha256": "b454701f7aecd7856769016dfd04ca64280a060f2c67a2466d50b4395d24974e"
+    },
+    {
+      "path": "ui_preview/vendor/pdfjs/cmaps/Hiragana.bcmap",
+      "sha256": "2ed669394756dd9458651cd9995ab29ab691ecb7686659003306cdf22767a414"
+    },
+    {
+      "path": "ui_preview/vendor/pdfjs/cmaps/KSC-EUC-H.bcmap",
+      "sha256": "6784e16dbc5861c036c23d3e55f0d4ba0975a3e464da0ee8e49bcfff0be070c4"
+    },
+    {
+      "path": "ui_preview/vendor/pdfjs/cmaps/KSC-EUC-V.bcmap",
+      "sha256": "fdb36bad85e9924823d49db374067988e024cf80fc894711f2c9178951cbbe95"
+    },
+    {
+      "path": "ui_preview/vendor/pdfjs/cmaps/KSC-H.bcmap",
+      "sha256": "c1f6d61f1d3304fd539a65ae72624fa567ecc3853bf52e283958a7a2515b3eee"
+    },
+    {
+      "path": "ui_preview/vendor/pdfjs/cmaps/KSC-Johab-H.bcmap",
+      "sha256": "939993d213f68db763bf156217c217ae23af082b91a0eacecf3d11eb4ff8ef8c"
+    },
+    {
+      "path": "ui_preview/vendor/pdfjs/cmaps/KSC-Johab-V.bcmap",
+      "sha256": "5d61967aac0e666def721e8b8d0fed8f95a879a14f2e76ce516c3d11c621e519"
+    },
+    {
+      "path": "ui_preview/vendor/pdfjs/cmaps/KSC-V.bcmap",
+      "sha256": "d7da5afd9f1fe74816d79c9325f0139a4efb6438664ebfdf9a7aa92f3034360f"
+    },
+    {
+      "path": "ui_preview/vendor/pdfjs/cmaps/KSCms-UHC-H.bcmap",
+      "sha256": "5b70d8f6a4fa9e2283dc649f0ff95d906d56efbee50a20e8d2faec3a8fed078e"
+    },
+    {
+      "path": "ui_preview/vendor/pdfjs/cmaps/KSCms-UHC-HW-H.bcmap",
+      "sha256": "a5e6ba22aceb02fdedee11bfb9ed138463d89e85b87810b9f075b469d936f8ec"
+    },
+    {
+      "path": "ui_preview/vendor/pdfjs/cmaps/KSCms-UHC-HW-V.bcmap",
+      "sha256": "890332a6a26880d463a12f2a6ff048bf9cf7e45077cfb1ca8815b89baa7bf411"
+    },
+    {
+      "path": "ui_preview/vendor/pdfjs/cmaps/KSCms-UHC-V.bcmap",
+      "sha256": "1631b531c9a40c8cbe24c2317dba107362e49fa6e18af620414d627c111d570c"
+    },
+    {
+      "path": "ui_preview/vendor/pdfjs/cmaps/KSCpc-EUC-H.bcmap",
+      "sha256": "709480682c55cedbb0124b9960d78e28febeee0df2e34607d61aac6601647ec7"
+    },
+    {
+      "path": "ui_preview/vendor/pdfjs/cmaps/KSCpc-EUC-V.bcmap",
+      "sha256": "031707887d6fc2378a36cdb6775334fd7a236c3f95048d8436abf43fe26fc49d"
+    },
+    {
+      "path": "ui_preview/vendor/pdfjs/cmaps/Katakana.bcmap",
+      "sha256": "3b6ca6642fbf8822da00d5e58a8aa275216d5c32dbf2bd73e934197fc9fc5c53"
+    },
+    {
+      "path": "ui_preview/vendor/pdfjs/cmaps/LICENSE",
+      "sha256": "aa92ab5a472974865a96fd4a4e9c13bb41bf6fe1b309cb6b8da48bc9e19839a2"
+    },
+    {
+      "path": "ui_preview/vendor/pdfjs/cmaps/NWP-H.bcmap",
+      "sha256": "286c6c9e335da330928a01edc3c97a3a623f1f7f3c42762b0a7dc2f651b1a78f"
+    },
+    {
+      "path": "ui_preview/vendor/pdfjs/cmaps/NWP-V.bcmap",
+      "sha256": "3a75fb7b59adfb172710758c425d8ac6c93fd5360a64dd4afd5dd04e60ab4b4d"
+    },
+    {
+      "path": "ui_preview/vendor/pdfjs/cmaps/RKSJ-H.bcmap",
+      "sha256": "a70de61a22a898f693f02cc011c3e3cff2e10aaa7cddb4661e456a21ae859f78"
+    },
+    {
+      "path": "ui_preview/vendor/pdfjs/cmaps/RKSJ-V.bcmap",
+      "sha256": "68c1a64506471a524ea5cfc3b3a9f8f70031989a6bd95427b1351f33ccf50b06"
+    },
+    {
+      "path": "ui_preview/vendor/pdfjs/cmaps/Roman.bcmap",
+      "sha256": "1c6b3ef9d9e5cb1aa329142ce9414b90f9b6d7f9182a2a9e927378dab8f0d43f"
+    },
+    {
+      "path": "ui_preview/vendor/pdfjs/cmaps/UniCNS-UCS2-H.bcmap",
+      "sha256": "779428116752f34e2490a1941d24e4634c71e3c22d053b811d2090ae2fb3c704"
+    },
+    {
+      "path": "ui_preview/vendor/pdfjs/cmaps/UniCNS-UCS2-V.bcmap",
+      "sha256": "1e5cc184b850ea44abc2df8ae5674279df668e8edf5e2a1a2ea2bd77adbd280f"
+    },
+    {
+      "path": "ui_preview/vendor/pdfjs/cmaps/UniCNS-UTF16-H.bcmap",
+      "sha256": "32ff139b3c7b91d6ad25f994701f3ce7b242906022c418fd73e6493fc228bfe5"
+    },
+    {
+      "path": "ui_preview/vendor/pdfjs/cmaps/UniCNS-UTF16-V.bcmap",
+      "sha256": "278eb1e68d1a236c60ef59472cf0176ee0d45f364285e76ca12419a08d46fb9a"
+    },
+    {
+      "path": "ui_preview/vendor/pdfjs/cmaps/UniCNS-UTF32-H.bcmap",
+      "sha256": "bf26eb67fe19ee5ba915799e80ca72408400aa8342fdf6a244a4f44de8f97336"
+    },
+    {
+      "path": "ui_preview/vendor/pdfjs/cmaps/UniCNS-UTF32-V.bcmap",
+      "sha256": "f7da3caf83ceb1cb37936fa10700d9ba6e9c3f72c5bc9724e3ac79bff0c0179e"
+    },
+    {
+      "path": "ui_preview/vendor/pdfjs/cmaps/UniCNS-UTF8-H.bcmap",
+      "sha256": "2f2a742bcd1a84a148a4a518b9eed51a8f9c6ca5ed3bc5e2e41fff97de5dc2d8"
+    },
+    {
+      "path": "ui_preview/vendor/pdfjs/cmaps/UniCNS-UTF8-V.bcmap",
+      "sha256": "b7c3f10780a8c62dd1c8ff6c30dc1e4e23b6cdc87c3a96fcd514cc98ffd3af9d"
+    },
+    {
+      "path": "ui_preview/vendor/pdfjs/cmaps/UniGB-UCS2-H.bcmap",
+      "sha256": "9201569b402e81ad8860650bd86350c4fa28e5dd5971f05fcacaf40f51de18ed"
+    },
+    {
+      "path": "ui_preview/vendor/pdfjs/cmaps/UniGB-UCS2-V.bcmap",
+      "sha256": "f10282335e4d64203bc2a653a3a47d745ec76c8ae04549f4d50180c1899be216"
+    },
+    {
+      "path": "ui_preview/vendor/pdfjs/cmaps/UniGB-UTF16-H.bcmap",
+      "sha256": "386fd39581245c034da016a92d23f3df1117d169f996100050b264fc09a84e35"
+    },
+    {
+      "path": "ui_preview/vendor/pdfjs/cmaps/UniGB-UTF16-V.bcmap",
+      "sha256": "0473cfbba612b92dd9918f0ff8aee9112897c48e0ffdc0eb82da3144ed8ea84a"
+    },
+    {
+      "path": "ui_preview/vendor/pdfjs/cmaps/UniGB-UTF32-H.bcmap",
+      "sha256": "f48a145dc4e3ed1dca1dde7111716a72306a2a4191ab05c6bae3a5c3a961cd2f"
+    },
+    {
+      "path": "ui_preview/vendor/pdfjs/cmaps/UniGB-UTF32-V.bcmap",
+      "sha256": "106acc49b7118bdef944e32107b4f348238f3929a0a15d3b7aab7b9101535993"
+    },
+    {
+      "path": "ui_preview/vendor/pdfjs/cmaps/UniGB-UTF8-H.bcmap",
+      "sha256": "f217b439c80ee5fa1bc2cf6d1defcc319f8d84483d166a00ee199e05a68588df"
+    },
+    {
+      "path": "ui_preview/vendor/pdfjs/cmaps/UniGB-UTF8-V.bcmap",
+      "sha256": "a64df947632878eacc532fa193c735c92a383b7d66e6f8374ac193af7c64fc63"
+    },
+    {
+      "path": "ui_preview/vendor/pdfjs/cmaps/UniJIS-UCS2-H.bcmap",
+      "sha256": "ad2352f40870880fbf7f8ee5abadff743fbd025fbf9830b8ada472d1c5e4da0b"
+    },
+    {
+      "path": "ui_preview/vendor/pdfjs/cmaps/UniJIS-UCS2-HW-H.bcmap",
+      "sha256": "16e87edca954177c0881c874859d6783220925d821b5cdfb8755b61ebd93f9ce"
+    },
+    {
+      "path": "ui_preview/vendor/pdfjs/cmaps/UniJIS-UCS2-HW-V.bcmap",
+      "sha256": "1973457e2c0192819947e56068625b34fb9a72ecc8a476ce6d7eaae5f73e2e5c"
+    },
+    {
+      "path": "ui_preview/vendor/pdfjs/cmaps/UniJIS-UCS2-V.bcmap",
+      "sha256": "42a133d8e2ce9dd6d2288018e01592d2bf2435b326d39b94ea0b6e6a44ac33d3"
+    },
+    {
+      "path": "ui_preview/vendor/pdfjs/cmaps/UniJIS-UTF16-H.bcmap",
+      "sha256": "f6a89c5688978548c83fcee990e205bc63c74274d5c69b49032a3bd4c49a05ee"
+    },
+    {
+      "path": "ui_preview/vendor/pdfjs/cmaps/UniJIS-UTF16-V.bcmap",
+      "sha256": "c67126fc7c73850855186bb0d6482ac0a365057e0b58778c4ab9f234683fef53"
+    },
+    {
+      "path": "ui_preview/vendor/pdfjs/cmaps/UniJIS-UTF32-H.bcmap",
+      "sha256": "96195950ce0fe24443d8eb426fa6b88534ec421d7bef9046f0b2362809cfba73"
+    },
+    {
+      "path": "ui_preview/vendor/pdfjs/cmaps/UniJIS-UTF32-V.bcmap",
+      "sha256": "ed4dafda402bdd19c4d5d8bf2ab41473c0f86f384552b4c7b963d6627daedeb1"
+    },
+    {
+      "path": "ui_preview/vendor/pdfjs/cmaps/UniJIS-UTF8-H.bcmap",
+      "sha256": "798fb0bf06ab0788d1f6a91c2db7de581612eef03c628f10e8f7ecd8f70ab448"
+    },
+    {
+      "path": "ui_preview/vendor/pdfjs/cmaps/UniJIS-UTF8-V.bcmap",
+      "sha256": "1021611424f913b2df0bfdbe94bd327c04e224ec89d8e821c6501ea3d21f4265"
+    },
+    {
+      "path": "ui_preview/vendor/pdfjs/cmaps/UniJIS2004-UTF16-H.bcmap",
+      "sha256": "710a32d7cb43fd6bd9dbf30da5971f8c941590f74441e208d852c2be0e74cc97"
+    },
+    {
+      "path": "ui_preview/vendor/pdfjs/cmaps/UniJIS2004-UTF16-V.bcmap",
+      "sha256": "3b149aff5c5707b57fb3215d1775852c8b1f413ec0f679ea628f25cf87fe098d"
+    },
+    {
+      "path": "ui_preview/vendor/pdfjs/cmaps/UniJIS2004-UTF32-H.bcmap",
+      "sha256": "8d2658e18741af7937d586a57c89729a6fec0d86121197c1f8518aa58b29cdfb"
+    },
+    {
+      "path": "ui_preview/vendor/pdfjs/cmaps/UniJIS2004-UTF32-V.bcmap",
+      "sha256": "6dd475782f2897648a683c48b2fa015a15b8f06856760bddc8a17a63f418bacb"
+    },
+    {
+      "path": "ui_preview/vendor/pdfjs/cmaps/UniJIS2004-UTF8-H.bcmap",
+      "sha256": "691c614ce432b3e62486efb54e5c84c6da5afe9b51b21253bde4758feb484183"
+    },
+    {
+      "path": "ui_preview/vendor/pdfjs/cmaps/UniJIS2004-UTF8-V.bcmap",
+      "sha256": "40a8c7ea2d46711c5f78fc9a878a7db68b1543ba5cd60ecf14f519a2deb829b7"
+    },
+    {
+      "path": "ui_preview/vendor/pdfjs/cmaps/UniJISPro-UCS2-HW-V.bcmap",
+      "sha256": "6826f94d789d7bf1960668c1c5819c34c9585c1b23152fbc19ee81c7df08524b"
+    },
+    {
+      "path": "ui_preview/vendor/pdfjs/cmaps/UniJISPro-UCS2-V.bcmap",
+      "sha256": "493de9fd1a08f7946065d8ab58f0c3c9fe489f5a0f109f2d05a3169b4bd5789f"
+    },
+    {
+      "path": "ui_preview/vendor/pdfjs/cmaps/UniJISPro-UTF8-V.bcmap",
+      "sha256": "6181d382cf736c5e09492e8be9f26f31fa25b7462253f23ab16646af432cad81"
+    },
+    {
+      "path": "ui_preview/vendor/pdfjs/cmaps/UniJISX0213-UTF32-H.bcmap",
+      "sha256": "692044e1fb33445668632bc9fe7386805c624864be1ddeb29d65bb0c99fc630c"
+    },
+    {
+      "path": "ui_preview/vendor/pdfjs/cmaps/UniJISX0213-UTF32-V.bcmap",
+      "sha256": "dd54e16ca7bffb3a886242549b2bf7d78a277087f7c60d2636f118c21a5b0646"
+    },
+    {
+      "path": "ui_preview/vendor/pdfjs/cmaps/UniJISX02132004-UTF32-H.bcmap",
+      "sha256": "f80ea5a989be30ccda5a8804baef6d3b4b044d2b339bf8b31c671b2466171cf6"
+    },
+    {
+      "path": "ui_preview/vendor/pdfjs/cmaps/UniJISX02132004-UTF32-V.bcmap",
+      "sha256": "94c22bd99e771c5fbe0dd8dc39850570d4db0075074aca13e272813edd7cc57f"
+    },
+    {
+      "path": "ui_preview/vendor/pdfjs/cmaps/UniKS-UCS2-H.bcmap",
+      "sha256": "a1081396ab4adb6f4a5b6c15f896963c244c1c9bcb65ce5616d06096a1b9811c"
+    },
+    {
+      "path": "ui_preview/vendor/pdfjs/cmaps/UniKS-UCS2-V.bcmap",
+      "sha256": "6cab547431958fbdc1d401d06ebd4dd61a73f5509a10f974df32bcbca11a2e43"
+    },
+    {
+      "path": "ui_preview/vendor/pdfjs/cmaps/UniKS-UTF16-H.bcmap",
+      "sha256": "42d35b396286499dfae1737a07adb3a64500df37b426580bfb1d3ea872938519"
+    },
+    {
+      "path": "ui_preview/vendor/pdfjs/cmaps/UniKS-UTF16-V.bcmap",
+      "sha256": "5bdb7390c80dcc136cb47d41dc7460082560969c17322ee739fe3020fb642410"
+    },
+    {
+      "path": "ui_preview/vendor/pdfjs/cmaps/UniKS-UTF32-H.bcmap",
+      "sha256": "3a01ec51ed1b828101351e337ffb8250abe11880032e5210f881170fed2588de"
+    },
+    {
+      "path": "ui_preview/vendor/pdfjs/cmaps/UniKS-UTF32-V.bcmap",
+      "sha256": "dfda895eceaed081af030dbbb962b49629eea817fc3c02bae15db93d0c68acd7"
+    },
+    {
+      "path": "ui_preview/vendor/pdfjs/cmaps/UniKS-UTF8-H.bcmap",
+      "sha256": "3fac9c65145f72d7d42157a3b9c5ed6904632184e6a0888f2b828699afd2002f"
+    },
+    {
+      "path": "ui_preview/vendor/pdfjs/cmaps/UniKS-UTF8-V.bcmap",
+      "sha256": "9ecc6cf30dd354b9778ddba163b6cc7302b087ce9f39d1ba73472d2b75ed13ca"
+    },
+    {
+      "path": "ui_preview/vendor/pdfjs/cmaps/V.bcmap",
+      "sha256": "b9ad1c0c09ff14bca52f9a28a9767eb857ad0e8946e64ba14c7387a7eb69866a"
+    },
+    {
+      "path": "ui_preview/vendor/pdfjs/cmaps/WP-Symbol.bcmap",
+      "sha256": "543923bead225732aba30976690ee89095a19628277b5863efecc2c728d5d7bf"
+    },
+    {
+      "path": "ui_preview/vendor/pdfjs/pdf.min.mjs",
+      "sha256": "f80490490320511e5df18c580b9edd6b5db8058dceebaf6f161992e0a964b9e2"
+    },
+    {
+      "path": "ui_preview/vendor/pdfjs/pdf.worker.min.mjs",
+      "sha256": "8ab0e5e30031b4a06ecfddd5ae9562f0227f830ee7ec9ed1a968b134243d2386"
+    },
+    {
+      "path": "ui_preview/vendor/pdfjs/standard_fonts/FoxitDingbats.pfb",
+      "sha256": "845c752392b6c914fb989c75a08b7792b88f542d2499042ef2889f8c814a16ed"
+    },
+    {
+      "path": "ui_preview/vendor/pdfjs/standard_fonts/FoxitFixed.pfb",
+      "sha256": "b6c8fe53f134b8b6d4578cd2d544df4cee9624c4efa8d51a560fb40ea296101b"
+    },
+    {
+      "path": "ui_preview/vendor/pdfjs/standard_fonts/FoxitFixedBold.pfb",
+      "sha256": "f1b7159702973f54fc86254ea38bcf3712b2a736eb3a0995751e9f4bb45ad603"
+    },
+    {
+      "path": "ui_preview/vendor/pdfjs/standard_fonts/FoxitFixedBoldItalic.pfb",
+      "sha256": "8a000945843bd31add06aee63bf9fd41b7578b4f3242a4b7cd46349ad9d24d4d"
+    },
+    {
+      "path": "ui_preview/vendor/pdfjs/standard_fonts/FoxitFixedItalic.pfb",
+      "sha256": "5007faf8320fa1fcc08b8894b356ad976f60b992ba29ee5272578bbdebaf3876"
+    },
+    {
+      "path": "ui_preview/vendor/pdfjs/standard_fonts/FoxitSerif.pfb",
+      "sha256": "4f57d2b9d884af8f907bf22df6019b52d86cbf6214fdbd02b1ae05472a543f35"
+    },
+    {
+      "path": "ui_preview/vendor/pdfjs/standard_fonts/FoxitSerifBold.pfb",
+      "sha256": "0bdf4b04e964139818d51eda03d566ba999fc3ba2421b1c6c51f9dc969022e80"
+    },
+    {
+      "path": "ui_preview/vendor/pdfjs/standard_fonts/FoxitSerifBoldItalic.pfb",
+      "sha256": "a406cac82583bf98175cb62c87ed5e95c45fbb34eece63a10b0a13e793cb2e10"
+    },
+    {
+      "path": "ui_preview/vendor/pdfjs/standard_fonts/FoxitSerifItalic.pfb",
+      "sha256": "610ae0687198045c4db5d1a6650fd5e92536631706382eb8b72e38df578d0ae9"
+    },
+    {
+      "path": "ui_preview/vendor/pdfjs/standard_fonts/FoxitSymbol.pfb",
+      "sha256": "47967d055530e7357088a08403115425643ec2cdfd6201ba8af0fbd7116c1539"
+    },
+    {
+      "path": "ui_preview/vendor/pdfjs/standard_fonts/LICENSE_FOXIT",
+      "sha256": "b578cdd2345840ada550bd12519533812320d5f1d21cf4c1c7e1b1b0a31c98b7"
+    },
+    {
+      "path": "ui_preview/vendor/pdfjs/standard_fonts/LICENSE_LIBERATION",
+      "sha256": "d2c4d5b3e115a519cb58eb691aa64538397e2611f9ebe801392cf9667997e7dc"
+    },
+    {
+      "path": "ui_preview/vendor/pdfjs/standard_fonts/LiberationSans-Bold.ttf",
+      "sha256": "361c61b82d575c5c35fd9157fda8b0194bcfcd0d88ea8521a4fb5dd53d33dddc"
+    },
+    {
+      "path": "ui_preview/vendor/pdfjs/standard_fonts/LiberationSans-BoldItalic.ttf",
+      "sha256": "a224075ac17495ad0a3af3bc0a419ac0704a8b3fd1095456201fb9b095fc281d"
+    },
+    {
+      "path": "ui_preview/vendor/pdfjs/standard_fonts/LiberationSans-Italic.ttf",
+      "sha256": "832b4406dbef23628800d3aaad21048534ac84d7e3ad955be83b8172ed8ef512"
+    },
+    {
+      "path": "ui_preview/vendor/pdfjs/standard_fonts/LiberationSans-Regular.ttf",
+      "sha256": "f8ace1f892b2bd9dc1792ba7f097fa7588f84fed48321480e04de5390828221f"
+    },
+    {
+      "path": "ui_preview/vendor/pdfjs/wasm/LICENSE_JBIG2",
+      "sha256": "9e66b7f1b934a28b37f3bc4dac97915de1674271e79a0a88182a18ed9731b4d1"
+    },
+    {
+      "path": "ui_preview/vendor/pdfjs/wasm/LICENSE_OPENJPEG",
+      "sha256": "a6af136f3e15038a666b61f376612a07d9a4e48cb7c01adbf3e33b3f14ab49b6"
+    },
+    {
+      "path": "ui_preview/vendor/pdfjs/wasm/LICENSE_PDFJS_JBIG2",
+      "sha256": "aad3cce09842e00e9e11ad5e8fef8cc02fbc3a3768fe2f007443b9cee37aaee5"
+    },
+    {
+      "path": "ui_preview/vendor/pdfjs/wasm/LICENSE_PDFJS_OPENJPEG",
+      "sha256": "717fc62da03292dbb4dd0c8280bd4ce7bb8550dcf31d772bc93455fb50313425"
+    },
+    {
+      "path": "ui_preview/vendor/pdfjs/wasm/LICENSE_PDFJS_QCMS",
+      "sha256": "508a77d2e7b51d98adeed32648ad124b7b30241a8e70b2e72c99f92d8e5874d1"
+    },
+    {
+      "path": "ui_preview/vendor/pdfjs/wasm/LICENSE_QCMS",
+      "sha256": "36d847ae882f6574ebc72f56a4f354e4f104fde4a584373496482e97d52d31bc"
+    },
+    {
+      "path": "ui_preview/vendor/pdfjs/wasm/jbig2.wasm",
+      "sha256": "e6bee67724a7b5436fe8162638e3708cfc8d52b6342db69a49715e30ff27cfdc"
+    },
+    {
+      "path": "ui_preview/vendor/pdfjs/wasm/jbig2_nowasm_fallback.js",
+      "sha256": "04c795a6657a4553a64b781ea3e85256203d913c3b71b72b85fa3ce00622f458"
+    },
+    {
+      "path": "ui_preview/vendor/pdfjs/wasm/openjpeg.wasm",
+      "sha256": "004a0e62db930ba9ff2a22212f4554d0bb57a0635a8287caf70f98117cee14ba"
+    },
+    {
+      "path": "ui_preview/vendor/pdfjs/wasm/openjpeg_nowasm_fallback.js",
+      "sha256": "0f998419819da4491d8302222aa9e2ff2494685641aa2a6c21c3760c29f3e319"
+    },
+    {
+      "path": "ui_preview/vendor/pdfjs/wasm/qcms_bg.wasm",
+      "sha256": "663d86126d5f5fcb1c61490f94353e2a8375660b8c5498ab3ebab5a34b08800e"
+    },
+    {
+      "path": "ui_preview/vendor/pdfjs/wasm/quickjs-eval.js",
+      "sha256": "fe7930418e869791ce892567dbd0bc4698152b7e550b5cefa553992c56ddc325"
+    },
+    {
+      "path": "ui_preview/vendor/pdfjs/wasm/quickjs-eval.wasm",
+      "sha256": "7bcacc9f22cacf7e9b23866d2a6d1639693d40c7f144e41b7c69ed37ba9cbe8f"
+    },
+    {
+      "path": "ui_preview/vendor/reader-chinese/LICENSE",
+      "sha256": "960f7fc16d8baa126802316a7df9078a383af4fb6bc60033adb28e85c08d5e5e"
+    },
+    {
+      "path": "ui_preview/vendor/reader-chinese/LICENSES/Apache-2.0.txt",
+      "sha256": "b534e465949558eec2597b04f5092b5e161236a68dfbfd04d547592ac3964308"
+    },
+    {
+      "path": "ui_preview/vendor/reader-chinese/STCharacters.mjs",
+      "sha256": "6252e30c5e5d871d77e7f7acfaa5d3697f7fb9ac844752439ceb53e9eeaecbc7"
+    },
+    {
+      "path": "ui_preview/vendor/reader-chinese/STPhrases.mjs",
+      "sha256": "37f40ed90e91a68730cc3631ea6327307e46364efe4daa3cca0ecf6c96af708b"
+    },
+    {
+      "path": "ui_preview/vendor/reader-chinese/THIRD_PARTY_LICENSES.md",
+      "sha256": "42c7dbe71c178fcca97ba945e9ac9ff360fb69bbfea4cb50556f6c65bfa59806"
+    },
+    {
+      "path": "ui_preview/vendor/reader-chinese/TSCharacters.mjs",
+      "sha256": "85aee197470c6fa5fce207b4d1fe17b178eb8075b622133cd0eaa3c7d75fe16c"
+    },
+    {
+      "path": "ui_preview/vendor/reader-chinese/TSPhrases.mjs",
+      "sha256": "d3cb6c2d1d08f8b1ccd808f4b913877b41ec1905f4c8f04299d0ddfcde623f4e"
+    },
+    {
+      "path": "ui_preview/vendor/reader-chinese/core.mjs",
+      "sha256": "5675706adcebf6a524dc016548b8e61a9b086b4ae4caf8ec4e84d6753024b168"
+    },
+    {
+      "path": "ui_preview/vendor/reader-chinese/manifest.json",
+      "sha256": "a6981726b4705b63db62b67207241865343dd1c4ddf4ab4a404ceed9ca2ec232"
+    },
+    {
+      "path": "ui_preview/vendor/reader-formats/LICENSES.json",
+      "sha256": "dc0af46d856b02565923e86d737f699004f0ee414c952965cf6c1d94eef0f968"
+    },
+    {
+      "path": "ui_preview/vendor/reader-formats/LOCK.json",
+      "sha256": "8baaa6a99e7da897f99821ec561988b8b4ce4f4aca99256740b43d35a828cf85"
+    },
+    {
+      "path": "ui_preview/vendor/reader-formats/THIRD_PARTY_NOTICES.md",
+      "sha256": "93fae7d1a91238c721f9af4de30d02f75882398c610d5b8fe65f48634c977c3a"
+    },
+    {
+      "path": "ui_preview/vendor/reader-formats/djvu-rs/LICENSE",
+      "sha256": "9b634d974fb7ccacccc877fa6b36016eb48884b09732485d7ad92b6294699163"
+    },
+    {
+      "path": "ui_preview/vendor/reader-formats/djvu-rs/scalar/djvu_rs.d.ts",
+      "sha256": "aa7fbe4480812dc4371968a6f45240b0d9df95ff28cd753e2c76c52cf02180a2"
+    },
+    {
+      "path": "ui_preview/vendor/reader-formats/djvu-rs/scalar/djvu_rs.js",
+      "sha256": "494000bc6cfcf6504664e303c5a23563f286b8cf5a6aa02d460cddb1bda7295d"
+    },
+    {
+      "path": "ui_preview/vendor/reader-formats/djvu-rs/scalar/djvu_rs_bg.wasm",
+      "sha256": "6de0f12f0f1bbbe6ab191db213863c6f997b499f56b0304583efe0ac29384c9e"
+    },
+    {
+      "path": "ui_preview/vendor/reader-formats/foliate/LICENSE",
+      "sha256": "b621ffc351fe263bc9b09dd0bc1c9332fda9c462a3904c1e4f0b4d3236b9c28c"
+    },
+    {
+      "path": "ui_preview/vendor/reader-formats/foliate/mobi.mjs",
+      "sha256": "016526df13a9f11ee6671a8c74346e1cf41fe6bdfe50165fdcbf744f015694f3"
+    },
+    {
+      "path": "ui_preview/vendor/reader-formats/libarchive.js/LICENSE",
+      "sha256": "cd2233ededca3500350239c4995a3bf4f57cb810b77074d266b0fb0d781dc161"
+    },
+    {
+      "path": "ui_preview/vendor/reader-formats/libarchive.js/dist/libarchive.js",
+      "sha256": "7948329343f4039e3088bb9818af96b2e70fc7dac8a43b878ced4314de0c8f2a"
+    },
+    {
+      "path": "ui_preview/vendor/reader-formats/libarchive.js/dist/libarchive.wasm",
+      "sha256": "8a66066ed3ea1e6db0469ec752d8fca888a6bf737c6cff21fdbcb62241a72424"
+    },
+    {
+      "path": "ui_preview/vendor/reader-formats/libarchive.js/dist/worker-bundle.js",
+      "sha256": "552fd4c4e96e677b8d1ee28b96eec3f7761f19ae9069b6df40c1848b3b632493"
+    },
+    {
+      "path": "ui_preview/vendor/reader-formats/licenses/_xmldom_xmldom_0.8.6.txt",
+      "sha256": "abfd3e77e14a1ca967033a371cc2ba36efca8199eafca0857873ac969b8483d6"
+    },
+    {
+      "path": "ui_preview/vendor/reader-formats/licenses/argparse_1.0.9.txt",
+      "sha256": "7a372b351e8fccfd0a5fa23e0939c6c371915a67c7a32b4321dd1d9172214bbd"
+    },
+    {
+      "path": "ui_preview/vendor/reader-formats/licenses/base64-js_1.5.1.txt",
+      "sha256": "4fb68b4339c9bf0c131e3546c6ae0849af18741cf0b35a5791277a1d41ebde46"
+    },
+    {
+      "path": "ui_preview/vendor/reader-formats/licenses/bluebird_3.4.7.txt",
+      "sha256": "e86b9e7ed3a674604f3090502e1fdf594ae77530e54ce69de1f410a2139f2236"
+    },
+    {
+      "path": "ui_preview/vendor/reader-formats/licenses/buffer_4.9.1.txt",
+      "sha256": "2a27b2092812a71d57ca5b1394cd455a66d3659deee73b37d634a99dc903df47"
+    },
+    {
+      "path": "ui_preview/vendor/reader-formats/licenses/bzip2-1.0.8.txt",
+      "sha256": "c6dbbf828498be844a89eaa3b84adbab3199e342eb5cb2ed2f0d4ba7ec0f38a3"
+    },
+    {
+      "path": "ui_preview/vendor/reader-formats/licenses/comlink_4.4.1.txt",
+      "sha256": "b4b869fcc402d184622d2cb5435e7e423a339e546bbb197f5ae4ee797d4b0756"
+    },
+    {
+      "path": "ui_preview/vendor/reader-formats/licenses/core-util-is_1.0.2.txt",
+      "sha256": "e138adc826bf43fb86f394ac21f3192bd8f1a368d0993b02b758a61472ac0c9c"
+    },
+    {
+      "path": "ui_preview/vendor/reader-formats/licenses/dingbat-to-unicode_1.0.2.txt",
+      "sha256": "ca5274d123410c66ece3369100038ceec46c4df436b4e8e74283b4b3ab4985fd"
+    },
+    {
+      "path": "ui_preview/vendor/reader-formats/licenses/duck_0.1.12.txt",
+      "sha256": "bb5b42bb7932228eb1a0bc0d4f974c52ac61290ee12e8ac6372d78b8abcf429a"
+    },
+    {
+      "path": "ui_preview/vendor/reader-formats/licenses/emscripten.txt",
+      "sha256": "620a78084fc7ca97c0b5dea9abf891f3ffcadfdbf305276f099c9c4e12fc1d86"
+    },
+    {
+      "path": "ui_preview/vendor/reader-formats/licenses/ieee754_1.1.8.txt",
+      "sha256": "94c4b739b6162a36de334c386ead1bd191edd2e33b78dd2fe4d4287607ad1847"
+    },
+    {
+      "path": "ui_preview/vendor/reader-formats/licenses/immediate_3.0.6.txt",
+      "sha256": "8a397b725cf4aebf471d53c681d9dcf7c29ead546fd8217c2c428c56ea2dd3a1"
+    },
+    {
+      "path": "ui_preview/vendor/reader-formats/licenses/inherits_2.0.3.txt",
+      "sha256": "62fb0f86717994ad7578a9636d587cff2507770fd674fe233a71a6625c52c6a6"
+    },
+    {
+      "path": "ui_preview/vendor/reader-formats/licenses/isarray_1.0.0.txt",
+      "sha256": "928968058dac3d2ffbcfb79d97d49ae9f1b0db4a53ebd527edb7622c25a0eb17"
+    },
+    {
+      "path": "ui_preview/vendor/reader-formats/licenses/jszip_3.7.1.txt",
+      "sha256": "dade58c7e10b38a47c011c3f1e35cb6d759dee0dd71b70e6ff746ebd3e98a0ff"
+    },
+    {
+      "path": "ui_preview/vendor/reader-formats/licenses/libarchive-3.7.2.txt",
+      "sha256": "b2cdf763345de2de34cebf54394df3c61a105c3b71288603c251f2fa638200ba"
+    },
+    {
+      "path": "ui_preview/vendor/reader-formats/licenses/lie_3.3.0.txt",
+      "sha256": "84d96bac894015d72b41620d3154283fd308239ab259f261c18c27ad97b492f0"
+    },
+    {
+      "path": "ui_preview/vendor/reader-formats/licenses/lop_0.4.2.txt",
+      "sha256": "bb5b42bb7932228eb1a0bc0d4f974c52ac61290ee12e8ac6372d78b8abcf429a"
+    },
+    {
+      "path": "ui_preview/vendor/reader-formats/licenses/openssl-1.0.2s.txt",
+      "sha256": "c8f60f4842bbad0353f5d81620e72b168b5638ca3a0a999f5da113b22491612e"
+    },
+    {
+      "path": "ui_preview/vendor/reader-formats/licenses/option_0.2.4.txt",
+      "sha256": "bb5b42bb7932228eb1a0bc0d4f974c52ac61290ee12e8ac6372d78b8abcf429a"
+    },
+    {
+      "path": "ui_preview/vendor/reader-formats/licenses/pako_1.0.11.txt",
+      "sha256": "88a578c02aca466bba9d6019cab2b6486a1e9625337fcab780419cb1e8b36b56"
+    },
+    {
+      "path": "ui_preview/vendor/reader-formats/licenses/process-nextick-args_1.0.7.txt",
+      "sha256": "3a862d882bb661f7c14ec61c6eaedc64915ee14b8fea4e912b50c226ee311798"
+    },
+    {
+      "path": "ui_preview/vendor/reader-formats/licenses/process_0.11.9.txt",
+      "sha256": "0ee31dd80f379e3b977cac6f6ac3f3ddeea574c654f1b58fc52f18ef0a1e0e98"
+    },
+    {
+      "path": "ui_preview/vendor/reader-formats/licenses/readable-stream_2.3.7.txt",
+      "sha256": "093f422b1925355576f64f8b8c1dc3d84ee4056d438a37e59cbe280fd949f108"
+    },
+    {
+      "path": "ui_preview/vendor/reader-formats/licenses/safe-buffer_5.1.2.txt",
+      "sha256": "fb1daafcf12bfc6ef49e99d0dcdecabd2ac278810670d121d6491305d7321b98"
+    },
+    {
+      "path": "ui_preview/vendor/reader-formats/licenses/set-immediate-shim_1.0.1.txt",
+      "sha256": "eb734fc52587384e319e36290f11f19d91b0c4f8c71649ae5d10f068ce4bd6ff"
+    },
+    {
+      "path": "ui_preview/vendor/reader-formats/licenses/sprintf-js_1.0.3.txt",
+      "sha256": "8a8acea10f54ae0c01854a61e29b94d4948d8788ceb13dd1896d2a49d67537f8"
+    },
+    {
+      "path": "ui_preview/vendor/reader-formats/licenses/string_decoder_0.10.31.txt",
+      "sha256": "bf5041fccb6e9e402f9b3e622348c0108cd09bb1d4d0176cdfb2b200bbc63418"
+    },
+    {
+      "path": "ui_preview/vendor/reader-formats/licenses/underscore_1.13.1.txt",
+      "sha256": "22af423d26f4cf7b845a97abf27054f8d4c2512111a5b9abf6129fcbb9443ec7"
+    },
+    {
+      "path": "ui_preview/vendor/reader-formats/licenses/util-deprecate_1.0.2.txt",
+      "sha256": "4ad302e815762afd661ce3024fa0d5b5f40e43416b4e035133ec103324a803f7"
+    },
+    {
+      "path": "ui_preview/vendor/reader-formats/licenses/xmlbuilder_10.0.0.txt",
+      "sha256": "5b932b849b6420e9c2605db5a1925a79ac3db0434ccf06ce4f502feb9b0b8f08"
+    },
+    {
+      "path": "ui_preview/vendor/reader-formats/licenses/xz-5.2.11.txt",
+      "sha256": "bcb02973ef6e87ea73d331b3a80df7748407f17efdb784b61b47e0e610d3bb5c"
+    },
+    {
+      "path": "ui_preview/vendor/reader-formats/licenses/zlib-1.3.txt",
+      "sha256": "845efc77857d485d91fb3e0b884aaa929368c717ae8186b66fe1ed2495753243"
+    },
+    {
+      "path": "ui_preview/vendor/reader-formats/mammoth/LICENSE",
+      "sha256": "6663bbd049205d38a496ccacb412a151980b444627d38de218b3b809aef330f1"
+    },
+    {
+      "path": "ui_preview/vendor/reader-formats/mammoth/mammoth.browser.min.js",
+      "sha256": "92914a3708cfdf1e62cb553d1856a7fedab21da83d8ee82845de2f897b368cab"
+    },
+    {
+      "path": "windows_resources/webview2/LICENSE.txt",
+      "sha256": "0af8f1b807512aae39c2ac1aa4d0cae65cabecb6fd554b8439a5162a0d6eca55"
+    },
+    {
+      "path": "windows_resources/webview2/x64/WebView2Loader.dll",
+      "sha256": "c66e4a92fdc7a216118e43b7a5024ea2200e8c43f9310bf20d96a0084f82c5bc"
+    },
+    {
+      "path": "windows_resources/webview2/x86/WebView2Loader.dll",
+      "sha256": "a08c57142946e5a554d9d5c018e27dcbb09248be8ad44852667b96564bbceeda"
+    }
+  ],
+  "fontSource": "sources/liberation-fonts-1.07.4.tar.gz",
+  "publicReleaseBlockers": [
+    {
+      "scope": "control-service",
+      "reason": "No verified redistribution grant/source provenance for assets/core.exe and assets/admin.exe; identity lock alone is insufficient."
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+# Reader format engines
+
+These local files run without CDN access. `LOCK.json` pins every engine file by
+version, original package integrity (npm packages), byte size and SHA256. Foliate
+is pinned to a source commit. Run `python scripts/vendor-reader-formats-r659.py`
+to verify; `--fetch` reproduces the pinned files without installing packages.
+
+- Foliate MOBI/KF8 adapter: MIT, commit 78914aef4466eb960965702401634c2cb348e9b1.
+- djvu-rs 0.43.0 scalar WASM: MIT. No DjVuLibre component is shipped.
+- Mammoth 1.13.0 browser bundle: BSD-2-Clause. Its upstream production and
+  browser support module notices are included in `licenses/`.
+- libarchive.js 2.0.2: MIT wrapper; Comlink Apache-2.0. The bundled WASM build's
+  upstream recipe uses libarchive 3.7.2, zlib 1.3, bzip2 1.0.8, XZ/liblzma
+  5.2.11 and OpenSSL 1.0.2s. Their notices are included in `licenses/`.
+  Emscripten runtime notice is also included; its exact upstream compiler
+  version is not provided by this npm release.
+
+This product includes software developed by the OpenSSL Project for use in the
+OpenSSL Toolkit (https://www.openssl.org/). This product includes cryptographic
+software written by Eric Young (eay@cryptsoft.com) and software written by
+Tim Hudson (tjh@cryptsoft.com).
+
+See each component's LICENSE and `LICENSES.json` for complete license text,
+copyright, source URL and notice hash. Optional upstream tooling/development
+dependencies are not installed. The immutable upstream browser bundles, rather
+than an inferred transitive dependency version list, define the shipped code.
+
+The additional parsers are necessary for KF8, DOCX, DjVu and RAR/TAR inputs that
+the existing PDF.js/EPUB adapter and Go standard library cannot render. They do
+not change the application's framework, original files or timer ownership.

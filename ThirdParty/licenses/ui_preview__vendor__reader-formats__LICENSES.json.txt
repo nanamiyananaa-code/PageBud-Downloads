@@ -1,0 +1,234 @@
+[
+  {
+    "name": "lop@0.4.2",
+    "source": "https://registry.npmjs.org/lop/-/lop-0.4.2.tgz",
+    "path": "ui_preview/vendor/reader-formats/licenses/lop_0.4.2.txt",
+    "sha256": "bb5b42bb7932228eb1a0bc0d4f974c52ac61290ee12e8ac6372d78b8abcf429a",
+    "npmLicenseExtraction": true
+  },
+  {
+    "name": "duck@0.1.12",
+    "source": "https://registry.npmjs.org/duck/-/duck-0.1.12.tgz",
+    "path": "ui_preview/vendor/reader-formats/licenses/duck_0.1.12.txt",
+    "sha256": "bb5b42bb7932228eb1a0bc0d4f974c52ac61290ee12e8ac6372d78b8abcf429a",
+    "npmLicenseExtraction": true
+  },
+  {
+    "name": "underscore@1.13.1",
+    "source": "https://registry.npmjs.org/underscore/-/underscore-1.13.1.tgz",
+    "path": "ui_preview/vendor/reader-formats/licenses/underscore_1.13.1.txt",
+    "sha256": "22af423d26f4cf7b845a97abf27054f8d4c2512111a5b9abf6129fcbb9443ec7",
+    "npmLicenseExtraction": true
+  },
+  {
+    "name": "option@0.2.4",
+    "source": "https://registry.npmjs.org/option/-/option-0.2.4.tgz",
+    "path": "ui_preview/vendor/reader-formats/licenses/option_0.2.4.txt",
+    "sha256": "bb5b42bb7932228eb1a0bc0d4f974c52ac61290ee12e8ac6372d78b8abcf429a",
+    "npmLicenseExtraction": true
+  },
+  {
+    "name": "jszip@3.7.1",
+    "source": "https://registry.npmjs.org/jszip/-/jszip-3.7.1.tgz",
+    "path": "ui_preview/vendor/reader-formats/licenses/jszip_3.7.1.txt",
+    "sha256": "dade58c7e10b38a47c011c3f1e35cb6d759dee0dd71b70e6ff746ebd3e98a0ff",
+    "npmLicenseExtraction": true
+  },
+  {
+    "name": "lie@3.3.0",
+    "source": "https://registry.npmjs.org/lie/-/lie-3.3.0.tgz",
+    "path": "ui_preview/vendor/reader-formats/licenses/lie_3.3.0.txt",
+    "sha256": "84d96bac894015d72b41620d3154283fd308239ab259f261c18c27ad97b492f0",
+    "npmLicenseExtraction": true
+  },
+  {
+    "name": "immediate@3.0.6",
+    "source": "https://registry.npmjs.org/immediate/-/immediate-3.0.6.tgz",
+    "path": "ui_preview/vendor/reader-formats/licenses/immediate_3.0.6.txt",
+    "sha256": "8a397b725cf4aebf471d53c681d9dcf7c29ead546fd8217c2c428c56ea2dd3a1",
+    "npmLicenseExtraction": true
+  },
+  {
+    "name": "pako@1.0.11",
+    "source": "https://registry.npmjs.org/pako/-/pako-1.0.11.tgz",
+    "path": "ui_preview/vendor/reader-formats/licenses/pako_1.0.11.txt",
+    "sha256": "88a578c02aca466bba9d6019cab2b6486a1e9625337fcab780419cb1e8b36b56",
+    "npmLicenseExtraction": true
+  },
+  {
+    "name": "readable-stream@2.3.7",
+    "source": "https://registry.npmjs.org/readable-stream/-/readable-stream-2.3.7.tgz",
+    "path": "ui_preview/vendor/reader-formats/licenses/readable-stream_2.3.7.txt",
+    "sha256": "093f422b1925355576f64f8b8c1dc3d84ee4056d438a37e59cbe280fd949f108",
+    "npmLicenseExtraction": true
+  },
+  {
+    "name": "core-util-is@1.0.2",
+    "source": "https://registry.npmjs.org/core-util-is/-/core-util-is-1.0.2.tgz",
+    "path": "ui_preview/vendor/reader-formats/licenses/core-util-is_1.0.2.txt",
+    "sha256": "e138adc826bf43fb86f394ac21f3192bd8f1a368d0993b02b758a61472ac0c9c",
+    "npmLicenseExtraction": true
+  },
+  {
+    "name": "inherits@2.0.3",
+    "source": "https://registry.npmjs.org/inherits/-/inherits-2.0.3.tgz",
+    "path": "ui_preview/vendor/reader-formats/licenses/inherits_2.0.3.txt",
+    "sha256": "62fb0f86717994ad7578a9636d587cff2507770fd674fe233a71a6625c52c6a6",
+    "npmLicenseExtraction": true
+  },
+  {
+    "name": "isarray@1.0.0",
+    "source": "https://registry.npmjs.org/isarray/-/isarray-1.0.0.tgz",
+    "path": "ui_preview/vendor/reader-formats/licenses/isarray_1.0.0.txt",
+    "sha256": "928968058dac3d2ffbcfb79d97d49ae9f1b0db4a53ebd527edb7622c25a0eb17",
+    "npmLicenseExtraction": true
+  },
+  {
+    "name": "process-nextick-args@1.0.7",
+    "source": "https://registry.npmjs.org/process-nextick-args/-/process-nextick-args-1.0.7.tgz",
+    "path": "ui_preview/vendor/reader-formats/licenses/process-nextick-args_1.0.7.txt",
+    "sha256": "3a862d882bb661f7c14ec61c6eaedc64915ee14b8fea4e912b50c226ee311798",
+    "npmLicenseExtraction": true
+  },
+  {
+    "name": "safe-buffer@5.1.2",
+    "source": "https://registry.npmjs.org/safe-buffer/-/safe-buffer-5.1.2.tgz",
+    "path": "ui_preview/vendor/reader-formats/licenses/safe-buffer_5.1.2.txt",
+    "sha256": "fb1daafcf12bfc6ef49e99d0dcdecabd2ac278810670d121d6491305d7321b98",
+    "npmLicenseExtraction": true
+  },
+  {
+    "name": "string_decoder@0.10.31",
+    "source": "https://registry.npmjs.org/string_decoder/-/string_decoder-0.10.31.tgz",
+    "path": "ui_preview/vendor/reader-formats/licenses/string_decoder_0.10.31.txt",
+    "sha256": "bf5041fccb6e9e402f9b3e622348c0108cd09bb1d4d0176cdfb2b200bbc63418",
+    "npmLicenseExtraction": true
+  },
+  {
+    "name": "util-deprecate@1.0.2",
+    "source": "https://registry.npmjs.org/util-deprecate/-/util-deprecate-1.0.2.tgz",
+    "path": "ui_preview/vendor/reader-formats/licenses/util-deprecate_1.0.2.txt",
+    "sha256": "4ad302e815762afd661ce3024fa0d5b5f40e43416b4e035133ec103324a803f7",
+    "npmLicenseExtraction": true
+  },
+  {
+    "name": "set-immediate-shim@1.0.1",
+    "source": "https://registry.npmjs.org/set-immediate-shim/-/set-immediate-shim-1.0.1.tgz",
+    "path": "ui_preview/vendor/reader-formats/licenses/set-immediate-shim_1.0.1.txt",
+    "sha256": "eb734fc52587384e319e36290f11f19d91b0c4f8c71649ae5d10f068ce4bd6ff",
+    "npmLicenseExtraction": true
+  },
+  {
+    "name": "argparse@1.0.9",
+    "source": "https://registry.npmjs.org/argparse/-/argparse-1.0.9.tgz",
+    "path": "ui_preview/vendor/reader-formats/licenses/argparse_1.0.9.txt",
+    "sha256": "7a372b351e8fccfd0a5fa23e0939c6c371915a67c7a32b4321dd1d9172214bbd",
+    "npmLicenseExtraction": true
+  },
+  {
+    "name": "sprintf-js@1.0.3",
+    "source": "https://registry.npmjs.org/sprintf-js/-/sprintf-js-1.0.3.tgz",
+    "path": "ui_preview/vendor/reader-formats/licenses/sprintf-js_1.0.3.txt",
+    "sha256": "8a8acea10f54ae0c01854a61e29b94d4948d8788ceb13dd1896d2a49d67537f8",
+    "npmLicenseExtraction": true
+  },
+  {
+    "name": "base64-js@1.5.1",
+    "source": "https://registry.npmjs.org/base64-js/-/base64-js-1.5.1.tgz",
+    "path": "ui_preview/vendor/reader-formats/licenses/base64-js_1.5.1.txt",
+    "sha256": "4fb68b4339c9bf0c131e3546c6ae0849af18741cf0b35a5791277a1d41ebde46",
+    "npmLicenseExtraction": true
+  },
+  {
+    "name": "xmlbuilder@10.0.0",
+    "source": "https://registry.npmjs.org/xmlbuilder/-/xmlbuilder-10.0.0.tgz",
+    "path": "ui_preview/vendor/reader-formats/licenses/xmlbuilder_10.0.0.txt",
+    "sha256": "5b932b849b6420e9c2605db5a1925a79ac3db0434ccf06ce4f502feb9b0b8f08",
+    "npmLicenseExtraction": true
+  },
+  {
+    "name": "@xmldom/xmldom@0.8.6",
+    "source": "https://registry.npmjs.org/@xmldom/xmldom/-/xmldom-0.8.6.tgz",
+    "path": "ui_preview/vendor/reader-formats/licenses/_xmldom_xmldom_0.8.6.txt",
+    "sha256": "abfd3e77e14a1ca967033a371cc2ba36efca8199eafca0857873ac969b8483d6",
+    "npmLicenseExtraction": true
+  },
+  {
+    "name": "dingbat-to-unicode@1.0.2",
+    "source": "https://registry.npmjs.org/dingbat-to-unicode/-/dingbat-to-unicode-1.0.2.tgz",
+    "path": "ui_preview/vendor/reader-formats/licenses/dingbat-to-unicode_1.0.2.txt",
+    "sha256": "ca5274d123410c66ece3369100038ceec46c4df436b4e8e74283b4b3ab4985fd",
+    "npmLicenseExtraction": true
+  },
+  {
+    "name": "buffer@4.9.1",
+    "source": "http://registry.npmjs.org/buffer/-/buffer-4.9.1.tgz",
+    "path": "ui_preview/vendor/reader-formats/licenses/buffer_4.9.1.txt",
+    "sha256": "2a27b2092812a71d57ca5b1394cd455a66d3659deee73b37d634a99dc903df47",
+    "npmLicenseExtraction": true
+  },
+  {
+    "name": "ieee754@1.1.8",
+    "source": "https://registry.npmjs.org/ieee754/-/ieee754-1.1.8.tgz",
+    "path": "ui_preview/vendor/reader-formats/licenses/ieee754_1.1.8.txt",
+    "sha256": "94c4b739b6162a36de334c386ead1bd191edd2e33b78dd2fe4d4287607ad1847",
+    "npmLicenseExtraction": true
+  },
+  {
+    "name": "process@0.11.9",
+    "source": "https://registry.npmjs.org/process/-/process-0.11.9.tgz",
+    "path": "ui_preview/vendor/reader-formats/licenses/process_0.11.9.txt",
+    "sha256": "0ee31dd80f379e3b977cac6f6ac3f3ddeea574c654f1b58fc52f18ef0a1e0e98",
+    "npmLicenseExtraction": true
+  },
+  {
+    "name": "bluebird@3.4.7",
+    "source": "http://registry.npmjs.org/bluebird/-/bluebird-3.4.7.tgz",
+    "path": "ui_preview/vendor/reader-formats/licenses/bluebird_3.4.7.txt",
+    "sha256": "e86b9e7ed3a674604f3090502e1fdf594ae77530e54ce69de1f410a2139f2236",
+    "npmLicenseExtraction": true
+  },
+  {
+    "name": "comlink@4.4.1",
+    "source": "https://registry.npmjs.org/comlink/-/comlink-4.4.1.tgz",
+    "path": "ui_preview/vendor/reader-formats/licenses/comlink_4.4.1.txt",
+    "sha256": "b4b869fcc402d184622d2cb5435e7e423a339e546bbb197f5ae4ee797d4b0756",
+    "npmLicenseExtraction": true
+  },
+  {
+    "name": "libarchive-3.7.2",
+    "source": "https://raw.githubusercontent.com/libarchive/libarchive/v3.7.2/COPYING",
+    "path": "ui_preview/vendor/reader-formats/licenses/libarchive-3.7.2.txt",
+    "sha256": "b2cdf763345de2de34cebf54394df3c61a105c3b71288603c251f2fa638200ba"
+  },
+  {
+    "name": "zlib-1.3",
+    "source": "https://raw.githubusercontent.com/madler/zlib/v1.3/LICENSE",
+    "path": "ui_preview/vendor/reader-formats/licenses/zlib-1.3.txt",
+    "sha256": "845efc77857d485d91fb3e0b884aaa929368c717ae8186b66fe1ed2495753243"
+  },
+  {
+    "name": "xz-5.2.11",
+    "source": "https://raw.githubusercontent.com/tukaani-project/xz/v5.2.11/COPYING",
+    "path": "ui_preview/vendor/reader-formats/licenses/xz-5.2.11.txt",
+    "sha256": "bcb02973ef6e87ea73d331b3a80df7748407f17efdb784b61b47e0e610d3bb5c"
+  },
+  {
+    "name": "bzip2-1.0.8",
+    "source": "https://raw.githubusercontent.com/libarchive/bzip2/bzip2-1.0.8/LICENSE",
+    "path": "ui_preview/vendor/reader-formats/licenses/bzip2-1.0.8.txt",
+    "sha256": "c6dbbf828498be844a89eaa3b84adbab3199e342eb5cb2ed2f0d4ba7ec0f38a3"
+  },
+  {
+    "name": "openssl-1.0.2s",
+    "source": "https://raw.githubusercontent.com/openssl/openssl/OpenSSL_1_0_2s/LICENSE",
+    "path": "ui_preview/vendor/reader-formats/licenses/openssl-1.0.2s.txt",
+    "sha256": "c8f60f4842bbad0353f5d81620e72b168b5638ca3a0a999f5da113b22491612e"
+  },
+  {
+    "name": "emscripten",
+    "source": "https://raw.githubusercontent.com/emscripten-core/emscripten/3.1.50/LICENSE",
+    "path": "ui_preview/vendor/reader-formats/licenses/emscripten.txt",
+    "sha256": "620a78084fc7ca97c0b5dea9abf891f3ffcadfdbf305276f099c9c4e12fc1d86"
+  }
+]

@@ -1,0 +1,40 @@
+{
+  "schema": 1,
+  "reviewedAt": "2026-11-20",
+  "supplementalNotices": [
+    {
+      "file": "LICENSE_QUICKJS",
+      "url": "https://raw.githubusercontent.com/mozilla/pdf.js/master/external/quickjs/LICENSE_QUICKJS",
+      "bytes": 1130,
+      "sha256": "598fd7fc928e4350abce36e337ba5a1346923c5c692f5be92c3d8e29ddd7c18d"
+    },
+    {
+      "file": "LICENSE_PDFJS_QUICKJS",
+      "url": "https://raw.githubusercontent.com/mozilla/pdf.js/master/external/quickjs/LICENSE_PDFJS_QUICKJS",
+      "bytes": 1075,
+      "sha256": "7fdaed3d938f3dfce7189db07e74773c23789143a55db81a95d09dcbfda267b0"
+    },
+    {
+      "file": "GO_LICENSE",
+      "url": "https://raw.githubusercontent.com/golang/go/go1.26.5/LICENSE",
+      "bytes": 1453,
+      "sha256": "911f8f5782931320f5b8d1160a76365b83aea6447ee6c04fa6d5591467db9dad"
+    }
+  ],
+  "fontSource": {
+    "version": "1.07.4",
+    "originalAuthorDownload": "https://releases.pagure.org/liberation-fonts/liberation-fonts-1.07.4.tar.gz",
+    "originalDownloadStatus": "404 when checked; original archive recovered unchanged from Cygwin source distribution",
+    "mirror": "https://sourceware.org/pub/cygwin/noarch/release/liberation-fonts/liberation-fonts-1.07.4-1-src.tar.xz",
+    "mirrorArchiveSHA256": "96938a0437a73e215898e0475a0c00ea9e251547f7e69cd76012163bb16c7375",
+    "innerMember": "liberation-fonts-1.07.4-1.src/liberation-fonts-1.07.4.tar.gz",
+    "sourceArchiveSHA256": "ad98b7498dc2992f7f0868f79b65ce4a720a3acdb63ab3f1f1cb6881117a5406",
+    "verification": "Original source archive contains all four Liberation Sans editable SFD files, scripts, Makefile, COPYING and License.txt. Bundled font metadata states version 1.07.4; PDF.js v6.3.289 external/standard_fonts/README.md confirms unmodified upstream fonts.",
+    "sourceBuild": "Unpack archive; install FontForge; run make. See original README and Makefile.",
+    "releaseReference": "https://github.com/mozilla/pdf.js/blob/v6.3.289/external/standard_fonts/README.md"
+  },
+  "quickJS": {
+    "releaseLicensing": "https://github.com/mozilla/pdf.js/blob/v6.3.289/external/quickjs/README.md",
+    "noticeProvenance": "Original MIT notices additionally supplied by Mozilla after omission in the binary directory; no claim to rebuild the shipped sandbox."
+  }
+}

@@ -1,0 +1,359 @@
+{
+  "version": "5.10.0-alpha-r793",
+  "architecture": "amd64",
+  "product": "PageBud",
+  "publisher": "nana",
+  "status": "candidate-not-public",
+  "files": [
+    {
+      "name": "页芽_首次安装版_v5.10.0-alpha-r793.exe",
+      "bytes": 1119195346,
+      "sha256": "7c07b6e78176dba050f300fcf515d94c73630626859e1312a8bf65c6e2f55633"
+    },
+    {
+      "name": "页芽_用户端升级包_amd64_v5.10.0-alpha-r793.exe",
+      "bytes": 1119195345,
+      "sha256": "d2a0b57bfa27514fa57400033109d95df913ace2d3f46b064bde9eca8eff7ac3"
+    },
+    {
+      "name": "ThirdParty/manifest.json",
+      "bytes": 69385,
+      "sha256": "f029cf70922295f05d0b8f97d71e021f505b3dab11b5247093088154a8dc4b0c"
+    },
+    {
+      "name": "ThirdParty/licenses/GO_LICENSE.txt",
+      "bytes": 1453,
+      "sha256": "911f8f5782931320f5b8d1160a76365b83aea6447ee6c04fa6d5591467db9dad"
+    },
+    {
+      "name": "ThirdParty/licenses/Liberation-1.07.4-COPYING.txt",
+      "bytes": 17987,
+      "sha256": "ab15fd526bd8dd18a9e77ebc139656bf4d33e97fc7238cd11bf60e2b9b8666c6"
+    },
+    {
+      "name": "ThirdParty/licenses/Liberation-1.07.4-License.txt.txt",
+      "bytes": 4012,
+      "sha256": "c40dd6adebad817defd68c7edad151d9c13d2ac3b4e1790ce2b727b024438b6d"
+    },
+    {
+      "name": "ThirdParty/licenses/Liberation-1.07.4-Makefile.txt",
+      "bytes": 4547,
+      "sha256": "78f5441712f066d30a9bd525515cd40f0e956616133b89763c3a4156dc5e6af6"
+    },
+    {
+      "name": "ThirdParty/licenses/Liberation-1.07.4-README.txt",
+      "bytes": 2062,
+      "sha256": "0f9c5beacf180de8cac8e04bc404d1db2f9ec5bd95e497f5162c98405cc2a99b"
+    },
+    {
+      "name": "ThirdParty/licenses/LICENSE_PDFJS_QUICKJS.txt",
+      "bytes": 1075,
+      "sha256": "7fdaed3d938f3dfce7189db07e74773c23789143a55db81a95d09dcbfda267b0"
+    },
+    {
+      "name": "ThirdParty/licenses/LICENSE_QUICKJS.txt",
+      "bytes": 1130,
+      "sha256": "598fd7fc928e4350abce36e337ba5a1346923c5c692f5be92c3d8e29ddd7c18d"
+    },
+    {
+      "name": "ThirdParty/licenses/ui_preview__vendor__pdfjs__cmaps__LICENSE.txt",
+      "bytes": 2080,
+      "sha256": "aa92ab5a472974865a96fd4a4e9c13bb41bf6fe1b309cb6b8da48bc9e19839a2"
+    },
+    {
+      "name": "ThirdParty/licenses/ui_preview__vendor__pdfjs__LICENSE.txt",
+      "bytes": 10174,
+      "sha256": "0d542e0c8804e39aa7f37eb00da5a762149dc682d7829451287e11b938e94594"
+    },
+    {
+      "name": "ThirdParty/licenses/ui_preview__vendor__pdfjs__standard_fonts__LICENSE_FOXIT.txt",
+      "bytes": 1553,
+      "sha256": "b578cdd2345840ada550bd12519533812320d5f1d21cf4c1c7e1b1b0a31c98b7"
+    },
+    {
+      "name": "ThirdParty/licenses/ui_preview__vendor__pdfjs__standard_fonts__LICENSE_LIBERATION.txt",
+      "bytes": 22154,
+      "sha256": "d2c4d5b3e115a519cb58eb691aa64538397e2611f9ebe801392cf9667997e7dc"
+    },
+    {
+      "name": "ThirdParty/licenses/ui_preview__vendor__pdfjs__wasm__LICENSE_JBIG2.txt",
+      "bytes": 12862,
+      "sha256": "9e66b7f1b934a28b37f3bc4dac97915de1674271e79a0a88182a18ed9731b4d1"
+    },
+    {
+      "name": "ThirdParty/licenses/ui_preview__vendor__pdfjs__wasm__LICENSE_OPENJPEG.txt",
+      "bytes": 2112,
+      "sha256": "a6af136f3e15038a666b61f376612a07d9a4e48cb7c01adbf3e33b3f14ab49b6"
+    },
+    {
+      "name": "ThirdParty/licenses/ui_preview__vendor__pdfjs__wasm__LICENSE_PDFJS_JBIG2.txt",
+      "bytes": 555,
+      "sha256": "aad3cce09842e00e9e11ad5e8fef8cc02fbc3a3768fe2f007443b9cee37aaee5"
+    },
+    {
+      "name": "ThirdParty/licenses/ui_preview__vendor__pdfjs__wasm__LICENSE_PDFJS_OPENJPEG.txt",
+      "bytes": 1285,
+      "sha256": "717fc62da03292dbb4dd0c8280bd4ce7bb8550dcf31d772bc93455fb50313425"
+    },
+    {
+      "name": "ThirdParty/licenses/ui_preview__vendor__pdfjs__wasm__LICENSE_PDFJS_QCMS.txt",
+      "bytes": 1036,
+      "sha256": "508a77d2e7b51d98adeed32648ad124b7b30241a8e70b2e72c99f92d8e5874d1"
+    },
+    {
+      "name": "ThirdParty/licenses/ui_preview__vendor__pdfjs__wasm__LICENSE_QCMS.txt",
+      "bytes": 1121,
+      "sha256": "36d847ae882f6574ebc72f56a4f354e4f104fde4a584373496482e97d52d31bc"
+    },
+    {
+      "name": "ThirdParty/licenses/ui_preview__vendor__reader-chinese__LICENSE.txt",
+      "bytes": 1080,
+      "sha256": "960f7fc16d8baa126802316a7df9078a383af4fb6bc60033adb28e85c08d5e5e"
+    },
+    {
+      "name": "ThirdParty/licenses/ui_preview__vendor__reader-chinese__LICENSES__Apache-2.0.txt.txt",
+      "bytes": 9165,
+      "sha256": "b534e465949558eec2597b04f5092b5e161236a68dfbfd04d547592ac3964308"
+    },
+    {
+      "name": "ThirdParty/licenses/ui_preview__vendor__reader-chinese__THIRD_PARTY_LICENSES.md.txt",
+      "bytes": 10232,
+      "sha256": "42c7dbe71c178fcca97ba945e9ac9ff360fb69bbfea4cb50556f6c65bfa59806"
+    },
+    {
+      "name": "ThirdParty/licenses/ui_preview__vendor__reader-formats__djvu-rs__LICENSE.txt",
+      "bytes": 1071,
+      "sha256": "9b634d974fb7ccacccc877fa6b36016eb48884b09732485d7ad92b6294699163"
+    },
+    {
+      "name": "ThirdParty/licenses/ui_preview__vendor__reader-formats__foliate__LICENSE.txt",
+      "bytes": 1070,
+      "sha256": "b621ffc351fe263bc9b09dd0bc1c9332fda9c462a3904c1e4f0b4d3236b9c28c"
+    },
+    {
+      "name": "ThirdParty/licenses/ui_preview__vendor__reader-formats__libarchive.js__LICENSE.txt",
+      "bytes": 1069,
+      "sha256": "cd2233ededca3500350239c4995a3bf4f57cb810b77074d266b0fb0d781dc161"
+    },
+    {
+      "name": "ThirdParty/licenses/ui_preview__vendor__reader-formats__licenses___xmldom_xmldom_0.8.6.txt.txt",
+      "bytes": 1322,
+      "sha256": "abfd3e77e14a1ca967033a371cc2ba36efca8199eafca0857873ac969b8483d6"
+    },
+    {
+      "name": "ThirdParty/licenses/ui_preview__vendor__reader-formats__licenses__argparse_1.0.9.txt.txt",
+      "bytes": 1103,
+      "sha256": "7a372b351e8fccfd0a5fa23e0939c6c371915a67c7a32b4321dd1d9172214bbd"
+    },
+    {
+      "name": "ThirdParty/licenses/ui_preview__vendor__reader-formats__licenses__base64-js_1.5.1.txt.txt",
+      "bytes": 1105,
+      "sha256": "4fb68b4339c9bf0c131e3546c6ae0849af18741cf0b35a5791277a1d41ebde46"
+    },
+    {
+      "name": "ThirdParty/licenses/ui_preview__vendor__reader-formats__licenses__bluebird_3.4.7.txt.txt",
+      "bytes": 1110,
+      "sha256": "e86b9e7ed3a674604f3090502e1fdf594ae77530e54ce69de1f410a2139f2236"
+    },
+    {
+      "name": "ThirdParty/licenses/ui_preview__vendor__reader-formats__licenses__buffer_4.9.1.txt.txt",
+      "bytes": 1130,
+      "sha256": "2a27b2092812a71d57ca5b1394cd455a66d3659deee73b37d634a99dc903df47"
+    },
+    {
+      "name": "ThirdParty/licenses/ui_preview__vendor__reader-formats__licenses__bzip2-1.0.8.txt.txt",
+      "bytes": 1896,
+      "sha256": "c6dbbf828498be844a89eaa3b84adbab3199e342eb5cb2ed2f0d4ba7ec0f38a3"
+    },
+    {
+      "name": "ThirdParty/licenses/ui_preview__vendor__reader-formats__licenses__comlink_4.4.1.txt.txt",
+      "bytes": 11365,
+      "sha256": "b4b869fcc402d184622d2cb5435e7e423a339e546bbb197f5ae4ee797d4b0756"
+    },
+    {
+      "name": "ThirdParty/licenses/ui_preview__vendor__reader-formats__licenses__core-util-is_1.0.2.txt.txt",
+      "bytes": 1101,
+      "sha256": "e138adc826bf43fb86f394ac21f3192bd8f1a368d0993b02b758a61472ac0c9c"
+    },
+    {
+      "name": "ThirdParty/licenses/ui_preview__vendor__reader-formats__licenses__dingbat-to-unicode_1.0.2.txt.txt",
+      "bytes": 1328,
+      "sha256": "ca5274d123410c66ece3369100038ceec46c4df436b4e8e74283b4b3ab4985fd"
+    },
+    {
+      "name": "ThirdParty/licenses/ui_preview__vendor__reader-formats__licenses__duck_0.1.12.txt.txt",
+      "bytes": 1331,
+      "sha256": "bb5b42bb7932228eb1a0bc0d4f974c52ac61290ee12e8ac6372d78b8abcf429a"
+    },
+    {
+      "name": "ThirdParty/licenses/ui_preview__vendor__reader-formats__licenses__emscripten.txt.txt",
+      "bytes": 5093,
+      "sha256": "620a78084fc7ca97c0b5dea9abf891f3ffcadfdbf305276f099c9c4e12fc1d86"
+    },
+    {
+      "name": "ThirdParty/licenses/ui_preview__vendor__reader-formats__licenses__ieee754_1.1.8.txt.txt",
+      "bytes": 1530,
+      "sha256": "94c4b739b6162a36de334c386ead1bd191edd2e33b78dd2fe4d4287607ad1847"
+    },
+    {
+      "name": "ThirdParty/licenses/ui_preview__vendor__reader-formats__licenses__immediate_3.0.6.txt.txt",
+      "bytes": 1143,
+      "sha256": "8a397b725cf4aebf471d53c681d9dcf7c29ead546fd8217c2c428c56ea2dd3a1"
+    },
+    {
+      "name": "ThirdParty/licenses/ui_preview__vendor__reader-formats__licenses__inherits_2.0.3.txt.txt",
+      "bytes": 773,
+      "sha256": "62fb0f86717994ad7578a9636d587cff2507770fd674fe233a71a6625c52c6a6"
+    },
+    {
+      "name": "ThirdParty/licenses/ui_preview__vendor__reader-formats__licenses__isarray_1.0.0.txt.txt",
+      "bytes": 1916,
+      "sha256": "928968058dac3d2ffbcfb79d97d49ae9f1b0db4a53ebd527edb7622c25a0eb17"
+    },
+    {
+      "name": "ThirdParty/licenses/ui_preview__vendor__reader-formats__licenses__jszip_3.7.1.txt.txt",
+      "bytes": 34203,
+      "sha256": "dade58c7e10b38a47c011c3f1e35cb6d759dee0dd71b70e6ff746ebd3e98a0ff"
+    },
+    {
+      "name": "ThirdParty/licenses/ui_preview__vendor__reader-formats__licenses__libarchive-3.7.2.txt.txt",
+      "bytes": 3086,
+      "sha256": "b2cdf763345de2de34cebf54394df3c61a105c3b71288603c251f2fa638200ba"
+    },
+    {
+      "name": "ThirdParty/licenses/ui_preview__vendor__reader-formats__licenses__lie_3.3.0.txt.txt",
+      "bytes": 1111,
+      "sha256": "84d96bac894015d72b41620d3154283fd308239ab259f261c18c27ad97b492f0"
+    },
+    {
+      "name": "ThirdParty/licenses/ui_preview__vendor__reader-formats__licenses__lop_0.4.2.txt.txt",
+      "bytes": 1331,
+      "sha256": "bb5b42bb7932228eb1a0bc0d4f974c52ac61290ee12e8ac6372d78b8abcf429a"
+    },
+    {
+      "name": "ThirdParty/licenses/ui_preview__vendor__reader-formats__licenses__openssl-1.0.2s.txt.txt",
+      "bytes": 6281,
+      "sha256": "c8f60f4842bbad0353f5d81620e72b168b5638ca3a0a999f5da113b22491612e"
+    },
+    {
+      "name": "ThirdParty/licenses/ui_preview__vendor__reader-formats__licenses__option_0.2.4.txt.txt",
+      "bytes": 1331,
+      "sha256": "bb5b42bb7932228eb1a0bc0d4f974c52ac61290ee12e8ac6372d78b8abcf429a"
+    },
+    {
+      "name": "ThirdParty/licenses/ui_preview__vendor__reader-formats__licenses__pako_1.0.11.txt.txt",
+      "bytes": 1128,
+      "sha256": "88a578c02aca466bba9d6019cab2b6486a1e9625337fcab780419cb1e8b36b56"
+    },
+    {
+      "name": "ThirdParty/licenses/ui_preview__vendor__reader-formats__licenses__process_0.11.9.txt.txt",
+      "bytes": 1122,
+      "sha256": "0ee31dd80f379e3b977cac6f6ac3f3ddeea574c654f1b58fc52f18ef0a1e0e98"
+    },
+    {
+      "name": "ThirdParty/licenses/ui_preview__vendor__reader-formats__licenses__process-nextick-args_1.0.7.txt.txt",
+      "bytes": 1091,
+      "sha256": "3a862d882bb661f7c14ec61c6eaedc64915ee14b8fea4e912b50c226ee311798"
+    },
+    {
+      "name": "ThirdParty/licenses/ui_preview__vendor__reader-formats__licenses__readable-stream_2.3.7.txt.txt",
+      "bytes": 2361,
+      "sha256": "093f422b1925355576f64f8b8c1dc3d84ee4056d438a37e59cbe280fd949f108"
+    },
+    {
+      "name": "ThirdParty/licenses/ui_preview__vendor__reader-formats__licenses__safe-buffer_5.1.2.txt.txt",
+      "bytes": 1105,
+      "sha256": "fb1daafcf12bfc6ef49e99d0dcdecabd2ac278810670d121d6491305d7321b98"
+    },
+    {
+      "name": "ThirdParty/licenses/ui_preview__vendor__reader-formats__licenses__set-immediate-shim_1.0.1.txt.txt",
+      "bytes": 584,
+      "sha256": "eb734fc52587384e319e36290f11f19d91b0c4f8c71649ae5d10f068ce4bd6ff"
+    },
+    {
+      "name": "ThirdParty/licenses/ui_preview__vendor__reader-formats__licenses__sprintf-js_1.0.3.txt.txt",
+      "bytes": 1542,
+      "sha256": "8a8acea10f54ae0c01854a61e29b94d4948d8788ceb13dd1896d2a49d67537f8"
+    },
+    {
+      "name": "ThirdParty/licenses/ui_preview__vendor__reader-formats__licenses__string_decoder_0.10.31.txt.txt",
+      "bytes": 1100,
+      "sha256": "bf5041fccb6e9e402f9b3e622348c0108cd09bb1d4d0176cdfb2b200bbc63418"
+    },
+    {
+      "name": "ThirdParty/licenses/ui_preview__vendor__reader-formats__licenses__underscore_1.13.1.txt.txt",
+      "bytes": 1163,
+      "sha256": "22af423d26f4cf7b845a97abf27054f8d4c2512111a5b9abf6129fcbb9443ec7"
+    },
+    {
+      "name": "ThirdParty/licenses/ui_preview__vendor__reader-formats__licenses__util-deprecate_1.0.2.txt.txt",
+      "bytes": 1126,
+      "sha256": "4ad302e815762afd661ce3024fa0d5b5f40e43416b4e035133ec103324a803f7"
+    },
+    {
+      "name": "ThirdParty/licenses/ui_preview__vendor__reader-formats__licenses__xmlbuilder_10.0.0.txt.txt",
+      "bytes": 1104,
+      "sha256": "5b932b849b6420e9c2605db5a1925a79ac3db0434ccf06ce4f502feb9b0b8f08"
+    },
+    {
+      "name": "ThirdParty/licenses/ui_preview__vendor__reader-formats__licenses__xz-5.2.11.txt.txt",
+      "bytes": 2775,
+      "sha256": "bcb02973ef6e87ea73d331b3a80df7748407f17efdb784b61b47e0e610d3bb5c"
+    },
+    {
+      "name": "ThirdParty/licenses/ui_preview__vendor__reader-formats__licenses__zlib-1.3.txt.txt",
+      "bytes": 1002,
+      "sha256": "845efc77857d485d91fb3e0b884aaa929368c717ae8186b66fe1ed2495753243"
+    },
+    {
+      "name": "ThirdParty/licenses/ui_preview__vendor__reader-formats__LICENSES.json.txt",
+      "bytes": 10363,
+      "sha256": "dc0af46d856b02565923e86d737f699004f0ee414c952965cf6c1d94eef0f968"
+    },
+    {
+      "name": "ThirdParty/licenses/ui_preview__vendor__reader-formats__mammoth__LICENSE.txt",
+      "bytes": 1307,
+      "sha256": "6663bbd049205d38a496ccacb412a151980b444627d38de218b3b809aef330f1"
+    },
+    {
+      "name": "ThirdParty/licenses/ui_preview__vendor__reader-formats__THIRD_PARTY_NOTICES.md.txt",
+      "bytes": 1800,
+      "sha256": "93fae7d1a91238c721f9af4de30d02f75882398c610d5b8fe65f48634c977c3a"
+    },
+    {
+      "name": "ThirdParty/licenses/windows_resources__webview2__LICENSE.txt.txt",
+      "bytes": 1487,
+      "sha256": "0af8f1b807512aae39c2ac1aa4d0cae65cabecb6fd554b8439a5162a0d6eca55"
+    },
+    {
+      "name": "ThirdParty/source-provenance.json",
+      "bytes": 2261,
+      "sha256": "384caac35d3d4b91165f978d7657eedbe740f8a17217d99dfa7069783c058154"
+    },
+    {
+      "name": "ThirdParty/sources/liberation-fonts-1.07.4.tar.gz",
+      "bytes": 2937949,
+      "sha256": "ad98b7498dc2992f7f0868f79b65ce4a720a3acdb63ab3f1f1cb6881117a5406"
+    },
+    {
+      "name": "ThirdParty/THIRD_PARTY_NOTICES.txt",
+      "bytes": 239528,
+      "sha256": "a91e0ff825eae3eb6f9f4ae67e68eec0f442d9671863fd68cfa1004e47cded31"
+    },
+    {
+      "name": "README.md",
+      "bytes": 1665,
+      "sha256": "c3c57b5e953e32ed444158dd7d2b822e3f39fc767cdd045fcb5aabbd78c3e405"
+    },
+    {
+      "name": "RELEASE_NOTES.md",
+      "bytes": 2114,
+      "sha256": "36c2509c79fe51374997cf9fe761d4bb679ee55f771a7043f96627a5796cbdee"
+    },
+    {
+      "name": "TERMS.md",
+      "bytes": 691,
+      "sha256": "87cb46ecd684c4d90bbe23230028a977b8c1951e6ade2c1173e51b332126da0f"
+    }
+  ]
+}
