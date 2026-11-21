@@ -1,5 +1,5 @@
 {
-  "version": "5.10.0-alpha-r794",
+  "version": "5.10.0-alpha-r796",
   "architecture": "amd64",
   "product": "PageBud",
   "publisher": "nana",
@@ -8,12 +8,12 @@
     {
       "name": "README.md",
       "bytes": 1661,
-      "sha256": "b30375e0eda5d3b930f4b6b46a27444b0fff44d6073f08d951f6709aff21ee72"
+      "sha256": "19404284c844a50a3c5d14f450cd608db08f696382e9fd5fbc4967ab447cec92"
     },
     {
       "name": "RELEASE_NOTES.md",
-      "bytes": 2233,
-      "sha256": "5265747e264cfbf026243cf060a46e4fede21ebdc6efee374c1f6e5b03df8d80"
+      "bytes": 2192,
+      "sha256": "d7737de9509f5f5f1ed68456534baa35cb86c99a2755b935a9f7c546793c3938"
     },
     {
       "name": "TERMS.md",
@@ -356,19 +356,19 @@
       "sha256": "9155547aae032aefaeeaa107c91c8be51db32228ac4f878bd1e8e3ce38380f80"
     },
     {
-      "name": "PageBud_ThirdParty_5.10.0-alpha-r794.zip",
+      "name": "PageBud_ThirdParty_5.10.0-alpha-r796.zip",
       "bytes": 3120320,
       "sha256": "e7ae06d61802696a168e1f327959972c997791df58a67b552fccfda73df0b34e"
     },
     {
-      "name": "PageBud-Update-5.10.0-alpha-r794-windows-x64.exe",
-      "bytes": 1107128191,
-      "sha256": "9296954a989c00a36ff7e607d3edca329dcc047c0714b965aa6a9b299b3d2825"
+      "name": "PageBud-Update-5.10.0-alpha-r796-windows-x64.exe",
+      "bytes": 1108437901,
+      "sha256": "c9af6e1bdc68255ae674f39e67404987c27d825c8bad851f29b672eebb1d3f1d"
     },
     {
-      "name": "PageBud-Setup-5.10.0-alpha-r794-windows-x64.exe",
-      "bytes": 1107128192,
-      "sha256": "0f55c9a1061a183a0d818a482a21f27f3c3d3b2499e34ac389ddd9b32895455d"
+      "name": "PageBud-Setup-5.10.0-alpha-r796-windows-x64.exe",
+      "bytes": 1108437902,
+      "sha256": "def070e98575a0fbd92e599782d162772c0274303bb4e18e17985373b8701903"
     }
   ]
 }
