@@ -6,19 +6,34 @@
   "status": "candidate-not-public",
   "files": [
     {
-      "name": "页芽_首次安装版_v5.10.0-alpha-r793.exe",
-      "bytes": 1119195346,
-      "sha256": "7c07b6e78176dba050f300fcf515d94c73630626859e1312a8bf65c6e2f55633"
+      "name": "README.md",
+      "bytes": 1661,
+      "sha256": "c95360541e52a4508e3db28e13deca6049e4abf8ea8e3ffa3e7011ab1b06ca73"
     },
     {
-      "name": "页芽_用户端升级包_amd64_v5.10.0-alpha-r793.exe",
-      "bytes": 1119195345,
-      "sha256": "d2a0b57bfa27514fa57400033109d95df913ace2d3f46b064bde9eca8eff7ac3"
+      "name": "RELEASE_NOTES.md",
+      "bytes": 2110,
+      "sha256": "81e3942014fe428409ea576dadc30114368008db3e631900cfcfa610843658f6"
+    },
+    {
+      "name": "TERMS.md",
+      "bytes": 691,
+      "sha256": "87cb46ecd684c4d90bbe23230028a977b8c1951e6ade2c1173e51b332126da0f"
     },
     {
       "name": "ThirdParty/manifest.json",
       "bytes": 69385,
       "sha256": "f029cf70922295f05d0b8f97d71e021f505b3dab11b5247093088154a8dc4b0c"
+    },
+    {
+      "name": "ThirdParty/source-provenance.json",
+      "bytes": 2261,
+      "sha256": "384caac35d3d4b91165f978d7657eedbe740f8a17217d99dfa7069783c058154"
+    },
+    {
+      "name": "ThirdParty/THIRD_PARTY_NOTICES.txt",
+      "bytes": 239528,
+      "sha256": "a91e0ff825eae3eb6f9f4ae67e68eec0f442d9671863fd68cfa1004e47cded31"
     },
     {
       "name": "ThirdParty/licenses/GO_LICENSE.txt",
@@ -326,34 +341,34 @@
       "sha256": "0af8f1b807512aae39c2ac1aa4d0cae65cabecb6fd554b8439a5162a0d6eca55"
     },
     {
-      "name": "ThirdParty/source-provenance.json",
-      "bytes": 2261,
-      "sha256": "384caac35d3d4b91165f978d7657eedbe740f8a17217d99dfa7069783c058154"
-    },
-    {
       "name": "ThirdParty/sources/liberation-fonts-1.07.4.tar.gz",
       "bytes": 2937949,
       "sha256": "ad98b7498dc2992f7f0868f79b65ce4a720a3acdb63ab3f1f1cb6881117a5406"
     },
     {
-      "name": "ThirdParty/THIRD_PARTY_NOTICES.txt",
-      "bytes": 239528,
-      "sha256": "a91e0ff825eae3eb6f9f4ae67e68eec0f442d9671863fd68cfa1004e47cded31"
+      "name": "PRIVACY_DRAFT.md",
+      "bytes": 2457,
+      "sha256": "ff859f610bef84e827c7110b7c7202fc036699a85d8e93d2e8dcea32e5d52ffa"
     },
     {
-      "name": "README.md",
-      "bytes": 1665,
-      "sha256": "c3c57b5e953e32ed444158dd7d2b822e3f39fc767cdd045fcb5aabbd78c3e405"
+      "name": "SECURITY_DRAFT.md",
+      "bytes": 735,
+      "sha256": "9155547aae032aefaeeaa107c91c8be51db32228ac4f878bd1e8e3ce38380f80"
     },
     {
-      "name": "RELEASE_NOTES.md",
-      "bytes": 2114,
-      "sha256": "36c2509c79fe51374997cf9fe761d4bb679ee55f771a7043f96627a5796cbdee"
+      "name": "PageBud_ThirdParty_5.10.0-alpha-r793.zip",
+      "bytes": 3120320,
+      "sha256": "e7ae06d61802696a168e1f327959972c997791df58a67b552fccfda73df0b34e"
     },
     {
-      "name": "TERMS.md",
-      "bytes": 691,
-      "sha256": "87cb46ecd684c4d90bbe23230028a977b8c1951e6ade2c1173e51b332126da0f"
+      "name": "PageBud-Update-5.10.0-alpha-r793-windows-x64.exe",
+      "bytes": 1119195345,
+      "sha256": "d2a0b57bfa27514fa57400033109d95df913ace2d3f46b064bde9eca8eff7ac3"
+    },
+    {
+      "name": "PageBud-Setup-5.10.0-alpha-r793-windows-x64.exe",
+      "bytes": 1119195346,
+      "sha256": "7c07b6e78176dba050f300fcf515d94c73630626859e1312a8bf65c6e2f55633"
     }
   ]
 }
