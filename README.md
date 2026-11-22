@@ -4,17 +4,24 @@
 
 个人发布者：nana  
 联系邮箱：foxappleccc@gmail.com  
-当前下载：5.10.0-alpha-r796 · Windows 64 位 · **未签名公开试用版（Pre-release）**
+当前下载：5.10.0-alpha-r804 · Windows 64 位 · **未签名公开试用版（Pre-release）**
 
 ## 下载安装
 
-**[下载独立安装包（Setup，约 1.03 GiB）](https://github.com/nanamiyananaa-code/PageBud-Downloads/releases/download/v5.10.0-alpha-r796/PageBud-Setup-5.10.0-alpha-r796-windows-x64.exe)** · [版本与全部附件](https://github.com/nanamiyananaa-code/PageBud-Downloads/releases/tag/v5.10.0-alpha-r796)
+**[下载独立安装包（Setup，约 235 MiB）](https://github.com/nanamiyananaa-code/PageBud-Downloads/releases/download/v5.10.0-alpha-r804/PageBud-Setup-5.10.0-alpha-r804-windows-x64.exe)** · [版本与全部附件](https://github.com/nanamiyananaa-code/PageBud-Downloads/releases/tag/v5.10.0-alpha-r804)
 
-1. 首次使用下载 `PageBud-Setup-5.10.0-alpha-r796-windows-x64.exe`，运行安装向导。
-2. 已有页芽的用户可选择 [升级包](https://github.com/nanamiyananaa-code/PageBud-Downloads/releases/download/v5.10.0-alpha-r796/PageBud-Update-5.10.0-alpha-r796-windows-x64.exe)；升级前确认数据已保存，并保留独立备份。
-3. [SHA256SUMS.txt](https://github.com/nanamiyananaa-code/PageBud-Downloads/releases/download/v5.10.0-alpha-r796/SHA256SUMS.txt) 提供文件校验值；可使用 PowerShell 的 `Get-FileHash -Algorithm SHA256 -LiteralPath '安装包完整路径'` 核对。
+1. 首次使用下载 `PageBud-Setup-5.10.0-alpha-r804-windows-x64.exe`，运行安装向导。
+2. 已有页芽的用户可选择 [升级包](https://github.com/nanamiyananaa-code/PageBud-Downloads/releases/download/v5.10.0-alpha-r804/PageBud-Update-5.10.0-alpha-r804-windows-x64.exe)；升级前确认数据已保存，并保留独立备份。
+3. [SHA256SUMS.txt](https://github.com/nanamiyananaa-code/PageBud-Downloads/releases/download/v5.10.0-alpha-r804/SHA256SUMS.txt) 提供文件校验值；可使用 PowerShell 的 `Get-FileHash -Algorithm SHA256 -LiteralPath '安装包完整路径'` 核对。
 
 安装包支持选择程序安装位置；正常升级及标准卸载保留本地学习数据。建议先使用少量非敏感资料体验，并保留自己的独立备份。
+
+## 教程与更新
+
+- 核心安装包保留功能、文字教程、海报和字幕。需要视频时，在教程内点击下载；完成后可离线观看。网络不可用时仍可使用本地学习与笔记功能。
+- [完整离线便携包（约 1.22 GiB）](https://github.com/nanamiyananaa-code/PageBud-Downloads/releases/download/v5.10.0-alpha-r804/PageBud-Offline-5.10.0-alpha-r804-windows-x64.zip) 包含全部教程，解压后运行页芽.exe；需要安装时运行同目录 PageBud-Setup.exe。
+- r804 起启动后可检查 GitHub 公开预览版更新；设置中的“自动下载更新”默认关闭。开启后可后台下载，但安装前仍需点击确认，不会直接中断当前学习。r796 用户需先手动升级一次。
+- GitHub 的网络可达性会影响下载与检查速度；当前没有另设镜像服务器。完整离线包可供网络不便的用户手动传递。
 
 ## 页芽可以用来做什么
 
@@ -47,8 +54,8 @@
 ## 本次试用范围
 
 - 此版本**没有可信数字签名**，Windows 可能显示“未知发布者”、SmartScreen 或其他安全提示。遇到拦截时请记录提示及文件哈希并联系支持，不要关闭安全防护。
-- 当前以本地学习、规划、阅读与笔记体验为主。联网账户、授权、反馈上传和更新服务仍处于开发验证阶段，不承诺可用性或持续在线；反馈优先发送邮件，勿据本预发布页进行付费购买。
-- Windows 10/11 独立干净环境验证、最终教程视觉与完整人工体验尚未完成；这不是稳定版或已完成全面验收的正式发行。已完成的构建及隔离安装／升级／回滚检查不等于上述验收。
+- 当前以本地学习、规划、阅读与笔记体验为主。联网账户、授权和反馈上传仍处于开发验证阶段，不承诺可用性或持续在线；反馈优先发送邮件，勿据本预发布页进行付费购买。
+- 已在隔离 Windows 10 客体验证本次离线资源与升级切换，但 Windows 10/11 完整兼容验证、最终教程视觉与完整人工体验尚未完成；这不是稳定版或已完成全面验收的正式发行。已完成的构建及隔离安装／升级／回滚检查不等于上述验收。
 - 本次公开下载本身免费；程序内原有免费、增强版及模块权益保持，以程序说明为准。
 
 ## 隐私与支持
@@ -57,12 +64,12 @@
 
 ## 如何查看访问与下载统计
 
-![安装包下载次数](https://img.shields.io/github/downloads/nanamiyananaa-code/PageBud-Downloads/v5.10.0-alpha-r796/PageBud-Setup-5.10.0-alpha-r796-windows-x64.exe?label=%E5%AE%89%E8%A3%85%E5%8C%85%E4%B8%8B%E8%BD%BD%E6%AC%A1%E6%95%B0&cacheSeconds=3600)
+![安装包下载次数](https://img.shields.io/github/downloads/nanamiyananaa-code/PageBud-Downloads/v5.10.0-alpha-r804/PageBud-Setup-5.10.0-alpha-r804-windows-x64.exe?label=%E5%AE%89%E8%A3%85%E5%8C%85%E4%B8%8B%E8%BD%BD%E6%AC%A1%E6%95%B0&cacheSeconds=3600)
 
-![升级包下载次数](https://img.shields.io/github/downloads/nanamiyananaa-code/PageBud-Downloads/v5.10.0-alpha-r796/PageBud-Update-5.10.0-alpha-r796-windows-x64.exe?label=%E5%8D%87%E7%BA%A7%E5%8C%85%E4%B8%8B%E8%BD%BD%E6%AC%A1%E6%95%B0&cacheSeconds=3600)
+![升级包下载次数](https://img.shields.io/github/downloads/nanamiyananaa-code/PageBud-Downloads/v5.10.0-alpha-r804/PageBud-Update-5.10.0-alpha-r804-windows-x64.exe?label=%E5%8D%87%E7%BA%A7%E5%8C%85%E4%B8%8B%E8%BD%BD%E6%AC%A1%E6%95%B0&cacheSeconds=3600)
 
 - **访问量、独立访客与来源**：发布账号登录后打开 [Insights → Traffic](https://github.com/nanamiyananaa-code/PageBud-Downloads/graphs/traffic)。GitHub提供最近14天数据；访客数据按小时更新，来源及热门页面按天更新，时间使用UTC。
-- **安装包与升级包下载次数**：上方徽章分别读取本版对应附件，可能有缓存延迟；[GitHub实时附件数据](https://api.github.com/repos/nanamiyananaa-code/PageBud-Downloads/releases/453876134/assets)中的 `download_count` 为原始计数。
+- **安装包与升级包下载次数**：上方徽章分别读取本版对应附件，可能有缓存延迟；[GitHub实时附件数据](https://api.github.com/repos/nanamiyananaa-code/PageBud-Downloads/releases/tags/v5.10.0-alpha-r804)中的 `download_count` 为原始计数。
 - **次数不等于人数**：重复下载、验证请求及自动访问可能影响计数；校验文件和许可ZIP没有并入安装包徽章。下载计数无法证明安装成功、独立用户数或实际使用人数。
 - 如需长期访问趋势，应定期保存最近14天数据。本仓库未增加独立访问追踪器或付费统计服务；下载徽章由免费Shields.io显示。
 
