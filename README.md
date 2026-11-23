@@ -24,6 +24,8 @@ https://github.com/user-attachments/assets/e6e8612c-df2a-4139-9b36-b035872af49c
 
 ## 教程与更新
 
+- [新版阅读器完整操作样片](tutorials/reader-r806.md)：选书、开始学习、摘录与心得、结束保存，以及从笔记返回原文。
+
 - 核心安装包保留功能、文字教程、海报和字幕。需要视频时，在教程内点击下载；完成后可离线观看。网络不可用时仍可使用本地学习与笔记功能。
 - [完整离线便携包（约 1.22 GiB）](https://github.com/nanamiyananaa-code/PageBud-Downloads/releases/download/v5.10.0-alpha-r804/PageBud-Offline-5.10.0-alpha-r804-windows-x64.zip) 包含全部教程，解压后运行页芽.exe；需要安装时运行同目录 PageBud-Setup.exe。
 - r804 起启动后可检查 GitHub 公开预览版更新；设置中的“自动下载更新”默认关闭。开启后可后台下载，但安装前仍需点击确认，不会直接中断当前学习。r796 用户需先手动升级一次。

@@ -1,0 +1,17 @@
+{
+  "title": "页芽阅读器完整操作样片",
+  "recordedVersion": "5.10.0-alpha-r806",
+  "url": "https://github.com/user-attachments/assets/b8c1a79b-0ed6-4a39-8d66-54d9b4a05139",
+  "name": "PageBud-Reader-Tutorial-r806.mp4",
+  "sha256": "26116f99df29eaa51e419a76ea51ff7e07e57128c2312243ba2c1ad79d641fa0",
+  "bytes": 2671263,
+  "width": 1920,
+  "height": 1080,
+  "fps": 12,
+  "durationSeconds": 91.83333333333333,
+  "codec": "H.264",
+  "audio": null,
+  "visualAcceptance": "pending-human",
+  "oneContinuousSource": true,
+  "bodyPlaybackRate": 1
+}

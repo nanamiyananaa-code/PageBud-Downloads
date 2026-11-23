@@ -54,8 +54,8 @@
     },
     {
       "name": "README.md",
-      "bytes": 7419,
-      "sha256": "d84a254ccacfcd2242ff7ed5acff67365b2a88f32a94920515329b03e05060f9"
+      "bytes": 7574,
+      "sha256": "08c192bcc3e740a1a3cf852ce47657fadab913e6556bc3c9cf57948a1e39900e"
     },
     {
       "name": "RELEASE_NOTES.md",
@@ -72,6 +72,37 @@
       "bytes": 4994454,
       "sha256": "f273d8d7a8486fe55d6df4958fd361147dcd331e7e7c7f65eb9986898167b455",
       "url": "https://github.com/user-attachments/assets/e6e8612c-df2a-4139-9b36-b035872af49c"
+    },
+    {
+      "name": "tutorials/reader-r806.md",
+      "bytes": 2511,
+      "sha256": "236cd8b21eeaf019449329e4453300e8bf4ba2d00de56c58a931307eac9f94ca"
+    },
+    {
+      "name": "assets/tutorials/reader-r806/cover.svg",
+      "bytes": 1189,
+      "sha256": "ecf9cb3213172bb487a81c993ab419bc8d4b3c158c38e5b6dfd5ad0cb038821e"
+    },
+    {
+      "name": "assets/tutorials/reader-r806/PageBud-Reader-Tutorial-r806.srt",
+      "bytes": 1543,
+      "sha256": "d87c641d58ca3369c3f7b11db6896a87dac51c2516b63199c2e584859079029c"
+    },
+    {
+      "name": "assets/tutorials/reader-r806/PageBud-Reader-Tutorial-r806.vtt",
+      "bytes": 1486,
+      "sha256": "20ff83e1d02f1a704d3148c55c955d072aabd9dba8bead68706f2ad1597a0ce2"
+    },
+    {
+      "name": "assets/tutorials/reader-r806/media.json",
+      "bytes": 551,
+      "sha256": "8020ce32df2bc708c9f103c819291a64f3f429f502ed70982fe6d92bd3a4485b"
+    },
+    {
+      "name": "PageBud-Reader-Tutorial-r806.mp4",
+      "bytes": 2671263,
+      "sha256": "26116f99df29eaa51e419a76ea51ff7e07e57128c2312243ba2c1ad79d641fa0",
+      "url": "https://github.com/user-attachments/assets/b8c1a79b-0ed6-4a39-8d66-54d9b4a05139"
     }
   ]
 }
