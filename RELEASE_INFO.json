@@ -54,8 +54,8 @@
     },
     {
       "name": "README.md",
-      "bytes": 7437,
-      "sha256": "d574e2ff8c0f9e17db668d251f874fe3e7c205a7d70046deb02aa61101d799bb"
+      "bytes": 7419,
+      "sha256": "d84a254ccacfcd2242ff7ed5acff67365b2a88f32a94920515329b03e05060f9"
     },
     {
       "name": "RELEASE_NOTES.md",
@@ -68,10 +68,10 @@
       "sha256": "552d2a09dc732933c64115c6afaa3d167e0a9bc63fb2d14050dd67e897764b59"
     },
     {
-      "name": "PageBud-Intro-Windows-r9.mp4",
-      "bytes": 3877174,
-      "sha256": "4cfbb820cdd6a557ae193f47de504acc33b9da2fb642caf2936c91f51c4ec529",
-      "url": "https://github.com/user-attachments/assets/7e702eb4-7c30-4024-8f5c-145e50b3cd89"
+      "name": "PageBud-Intro-Windows-r9-clear.mp4",
+      "bytes": 4994454,
+      "sha256": "f273d8d7a8486fe55d6df4958fd361147dcd331e7e7c7f65eb9986898167b455",
+      "url": "https://github.com/user-attachments/assets/e6e8612c-df2a-4139-9b36-b035872af49c"
     }
   ]
 }
