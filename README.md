@@ -6,6 +6,12 @@
 联系邮箱：foxappleccc@gmail.com  
 当前下载：5.10.0-alpha-r804 · Windows 64 位 · **未签名公开试用版（Pre-release）**
 
+## 看一段实际操作
+
+从开始学习、阅读与心得保存，到结束记录后从笔记返回原文。视频使用现有学习项目和真实书籍，商业书籍正文局部做了模糊处理，页面下方提供安装包。
+
+https://github.com/user-attachments/assets/7e702eb4-7c30-4024-8f5c-145e50b3cd89
+
 ## 下载安装
 
 **[下载独立安装包（Setup，约 235 MiB）](https://github.com/nanamiyananaa-code/PageBud-Downloads/releases/download/v5.10.0-alpha-r804/PageBud-Setup-5.10.0-alpha-r804-windows-x64.exe)** · [版本与全部附件](https://github.com/nanamiyananaa-code/PageBud-Downloads/releases/tag/v5.10.0-alpha-r804)
