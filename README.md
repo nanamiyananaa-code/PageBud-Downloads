@@ -51,12 +51,20 @@
 
 ![页芽笔记：原文摘录、心得与查看阅读原文入口](assets/screenshots/reading-notes.jpg)
 
-## 本次试用范围
+## nana 的话
 
-- 此版本**没有可信数字签名**，Windows 可能显示“未知发布者”、SmartScreen 或其他安全提示。遇到拦截时请记录提示及文件哈希并联系支持，不要关闭安全防护。
-- 当前以本地学习、规划、阅读与笔记体验为主。联网账户、授权和反馈上传仍处于开发验证阶段，不承诺可用性或持续在线；反馈优先发送邮件，勿据本预发布页进行付费购买。
-- 已在隔离 Windows 10 客体验证本次离线资源与升级切换，但 Windows 10/11 完整兼容验证、最终教程视觉与完整人工体验尚未完成；这不是稳定版或已完成全面验收的正式发行。已完成的构建及隔离安装／升级／回滚检查不等于上述验收。
-- 本次公开下载本身免费；程序内原有免费、增强版及模块权益保持，以程序说明为准。
+嗨，我是 nana。页芽是我自己一直在用，也一直在改的学习工具，前前后后已经迭代了 **2000 多个自用版本**。
+
+我想把学习计划、读到的内容、随手记下的想法，还有每次学习留下的记录，好好接在一起。读到有用的地方能记下来，下次想起时，也能顺着笔记回去看看。
+
+现在把页芽分享出来，想邀请你也试一试。用着有哪里别扭，或者有什么想法，都可以来告诉我。
+
+## 使用与支持
+
+- 页芽面向 Windows 10/11 64 位电脑，主要提供本地学习、规划、阅读与笔记功能；教程和更新可以按需从 GitHub 下载。
+- 本次公开下载免费；程序内各项免费功能、增强版与模块权益，以相应功能说明为准。
+- 安装包目前**没有可信数字签名**，Windows 可能显示“未知发布者”或 SmartScreen 提示。请保留系统安全防护，可对照校验文件确认来源；如遇拦截，将提示及文件哈希发给我。
+- 账户及其他联网服务的开放范围以软件内说明为准；使用问题和建议请发送至 foxappleccc@gmail.com。
 
 ## 隐私与支持
 
@@ -69,7 +77,7 @@
 ![升级包下载次数](https://img.shields.io/github/downloads/nanamiyananaa-code/PageBud-Downloads/v5.10.0-alpha-r804/PageBud-Update-5.10.0-alpha-r804-windows-x64.exe?label=%E5%8D%87%E7%BA%A7%E5%8C%85%E4%B8%8B%E8%BD%BD%E6%AC%A1%E6%95%B0&cacheSeconds=3600)
 
 - **访问量、独立访客与来源**：发布账号登录后打开 [Insights → Traffic](https://github.com/nanamiyananaa-code/PageBud-Downloads/graphs/traffic)。GitHub提供最近14天数据；访客数据按小时更新，来源及热门页面按天更新，时间使用UTC。
-- **安装包与升级包下载次数**：上方徽章分别读取本版对应附件，可能有缓存延迟；[GitHub实时附件数据](https://api.github.com/repos/nanamiyananaa-code/PageBud-Downloads/releases/tags/v5.10.0-alpha-r804)中的 `download_count` 为原始计数。
+- **安装包与升级包下载次数**：上方徽章分别读取当前版本附件，可能有缓存延迟；历史版本的下载次数仍保留在各自发行页，不会因更新清空。[GitHub实时附件数据](https://api.github.com/repos/nanamiyananaa-code/PageBud-Downloads/releases/tags/v5.10.0-alpha-r804)中的 `download_count` 为原始计数。
 - **次数不等于人数**：重复下载、验证请求及自动访问可能影响计数；校验文件和许可ZIP没有并入安装包徽章。下载计数无法证明安装成功、独立用户数或实际使用人数。
 - 如需长期访问趋势，应定期保存最近14天数据。本仓库未增加独立访问追踪器或付费统计服务；下载徽章由免费Shields.io显示。
 
